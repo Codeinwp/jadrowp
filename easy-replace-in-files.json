@@ -1,0 +1,22 @@
+{
+	"easyReplaceInFiles": [
+		{
+			"files": "readme.txt",
+			"from": "Stable tag:\\s?(.+)",
+			"type": "regex",
+			"to": "Stable tag: $$npm_package_version$$"
+		},
+		{
+			"files": "style.css",
+			"from": "Version:\\s?(.+)",
+			"type": "regex",
+			"to": "Version: $$npm_package_version$$"
+		},
+		{
+			"files": "functions.php",
+			"from": "define\\( \\'JADRO_VERSION\\'\\, \\'(.+)\\'",
+			"type": "regex",
+			"to": "define( 'JADRO_VERSION', '$$npm_package_version$$'"
+		}
+	]
+}

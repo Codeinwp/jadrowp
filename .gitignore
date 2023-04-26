@@ -1,0 +1,53 @@
+# Operating System files
+*~
+._*
+.DS_Store
+Thumbs.db
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
+# IDE files
+.idea
+.vscode/*
+project.xml
+project.properties
+.project
+.settings*
+*.sublime-project
+*.sublime-workspace
+.sublimelinterrc
+nbproject/private/
+tmp/
+
+# Environment files
+.env
+
+wp-cli.local.yml
+yarn-error.log
+npm-debug.log
+.pnpm-debug.log
+
+# Ignored extensions
+*~
+*.diff
+*.err
+*.log
+*.map
+*.orig
+*.pyc
+*.rej
+*.sass-cache
+*.sw?
+*.vi
+*.zip
+
+# Sass
+.sass-cache/
+
+# Project folders
+build/
+deploy/
+docs/
+node_modules/
+vendor/
