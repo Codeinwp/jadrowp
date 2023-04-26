@@ -2,7 +2,7 @@
   "name": "jadro",
   "version": "1.0.0",
   "description": "",
-	"keywords": [],
+  "keywords": [],
   "author": "",
   "license": "MIT",
   "repository": {
@@ -11,17 +11,32 @@
   },
   "homepage": "https://github.com/jadrowp/jadro/",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
+		"preinstall": "npx only-allow pnpm",
     "pot": "composer run-script pot",
     "version": "easy-replace-in-files",
+		"rtl": "rtlcss style.css style-rtl.css",
     "deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
   },
   "browserslist": "> 1%, not dead",
+	"rtlcssConfig": {
+    "options": {
+      "autoRename": false,
+      "autoRenameStrict": false,
+      "blacklist": {},
+      "clean": true,
+      "greedy": false,
+      "processUrls": false,
+      "stringMap": []
+    },
+    "plugins": [],
+    "map": false
+  },
   "devDependencies": {
     "bestzip": "^2.2.1",
     "copy-files-from-to": "^3.8.0",
     "cross-var": "^1.1.0",
     "easy-replace-in-files": "^1.0.3",
+    "rtlcss": "^4.1.0",
     "shx": "^0.3.4"
   }
 }

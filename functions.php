@@ -52,7 +52,8 @@ add_action( 'after_setup_theme', 'jadro_setup' );
  * @since 1.0.0
  */
 function jadro_scripts() {
-	wp_enqueue_style( 'jadro-style', JADRO_URI . '/assets/css/style.css', array(), JADRO_VERSION );
+	wp_enqueue_style( 'jadro-style', get_stylesheet_uri(), array(), JADRO_VERSION );
+	wp_style_add_data( 'jadro-style', 'rtl', 'replace' );
 }
 
 add_action( 'wp_enqueue_scripts', 'jadro_scripts' );

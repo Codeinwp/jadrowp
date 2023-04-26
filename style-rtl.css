@@ -1,11 +1,27 @@
+/*
+Theme Name: Jadro
+Theme URI: https://jadrowp.com/
+Author: Jadro WP
+Author URI: https://jadrowp.com/
+Description: Jadro is a minimal and lightweight Full Site Editing theme. This speed optimized theme utilizes the WordPress blocks editor to create unique and eye-catching layouts. Jadro is perfect for blogs, small businesses, startups, law firms and other creative agencies who prefer simple and speed optimized websites.
+Requires at least: 5.9
+Tested up to: 6.2
+Requires PHP: 5.6
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jadro
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, blog, e-commerce, wide-blocks
+*/
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .alignfull {
-  margin-left: calc(-100vw / 2 + 100% / 2);
   margin-right: calc(-100vw / 2 + 100% / 2);
+  margin-left: calc(-100vw / 2 + 100% / 2);
   max-width: 100vw;
   width: auto;
 }
@@ -38,7 +54,7 @@ body {
   display: flex;
   position: absolute;
   top: 10px;
-  right: 0;
+  left: 0;
   width: auto;
   height: auto;
 }
@@ -91,7 +107,7 @@ ol li a {
 
 .is-style-default,
 .is-style-square {
-    padding-left: 22px;
+    padding-right: 22px;
 }
 
 .is-style-square {
@@ -102,7 +118,7 @@ ol li a {
 .is-style-checklist-circle,
 .is-style-none {
   list-style:none;
-  padding-left: 0;
+  padding-right: 0;
 }
 
 .is-style-checklist li {
@@ -112,8 +128,8 @@ ol li a {
 
 .is-style-checklist li:before {
   content: '';
-  mask: url('../images/checklist.svg');
-  -webkit-mask: url('../images/checklist.svg');
+  mask: url('assets/images/checklist.svg');
+  -webkit-mask: url('assets/images/checklist.svg');
   height: 1.5em;
   width: 1.5em;
   min-height: 1.5em;
@@ -130,8 +146,8 @@ ol li a {
 
 .is-style-checklist-circle li:before {
   content: '';
-  mask: url('../images/checklist-circle.svg');
-  -webkit-mask: url('../images/checklist-circle.svg');
+  mask: url('assets/images/checklist-circle.svg');
+  -webkit-mask: url('assets/images/checklist-circle.svg');
   height: 1em;
   width: 1em;
   min-height: 1em;
