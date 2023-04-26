@@ -1,15 +1,15 @@
 <?php
-
 /**
  * Title: Footer
- * Slug: footer
- * Keywords: Footer
+ * Slug: jadro/footer
+ * Categories: jadro
+ * Keywords: footer
+ *
+ * @package Jadro
  */
 
-return array(
-  'title'      => __( 'Footer', 'jadro' ),
-  'categories' => array( 'jadro' ),
-  'content'    => '<!-- wp:group {"style":{"spacing":{"padding":{"top":"6rem","right":"var:preset|spacing|50","left":"var:preset|spacing|50","bottom":"3rem"}},"color":{"background":"#2f2f2f"}},"textColor":"white","className":"site-footer","layout":{"inherit":true,"type":"constrained"}} -->
+?>
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"6rem","right":"var:preset|spacing|50","left":"var:preset|spacing|50","bottom":"3rem"}},"color":{"background":"#2f2f2f"}},"textColor":"white","className":"site-footer","layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group site-footer has-white-color has-text-color has-background" style="background-color:#2f2f2f;padding-top:6rem;padding-right:var(--wp--preset--spacing--50);padding-bottom:3rem;padding-left:var(--wp--preset--spacing--50)"><!-- wp:columns {"align":"wide","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|60"},"blockGap":{"top":"5rem","left":"5rem"}}}} -->
 <div class="wp-block-columns alignwide" style="padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:column {"width":"60%"} -->
 <div class="wp-block-column" style="flex-basis:60%"><!-- wp:columns -->
@@ -99,5 +99,4 @@ return array(
 <div class="wp-block-group site-footer has-white-color has-text-color has-background" style="border-top-color:#ffffff21;border-top-width:1px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;background-color:#2f2f2f;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">Copyright © 2023. All Rights Reserved. </p>
 <!-- /wp:paragraph --></div>
-<!-- /wp:group -->'
-);
+<!-- /wp:group -->

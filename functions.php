@@ -62,37 +62,20 @@ function jadro_scripts() {
 add_action( 'wp_enqueue_scripts', 'jadro_scripts' );
 
 /**
- * Register block patterns.
+ * Register block patterns category.
  *
  * @since 1.0.0
  */
-function jadro_register_block_patterns() {
+function jadro_register_block_patterns_category() {
 	register_block_pattern_category(
 		'jadro',
 		array(
-			'label' => esc_html__( 'Jadro Patterns', 'jadro' ),
+			'label' => esc_html__( 'Jadro', 'jadro' ),
 		)
 	);
-
-	$block_patterns = array(
-		'header',
-		'hero-banner',
-		'features',
-		'latest-articles',
-		'cta-default',
-		'cta-full-width',
-		'testimonials',
-		'pricing-table',
-		'footer',
-	);
-
-	foreach ( $block_patterns as $block_pattern ) {
-		$pattern_file = get_theme_file_path( '/inc/patterns/' . $block_pattern . '.php' );
-		register_block_pattern( 'jadro/' . $block_pattern, require $pattern_file );
-	}
 }
 
-add_action( 'init', 'jadro_register_block_patterns', 9 );
+add_action( 'init', 'jadro_register_block_patterns_category', 9 );
 
 /**
  * Register block styles.

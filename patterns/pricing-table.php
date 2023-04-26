@@ -1,16 +1,16 @@
 <?php
-
 /**
  * Title: Pricing Table
- * Slug: pricing-table
- * Keywords: Pricing
+ * Slug: jadro/pricing-table
+ * Categories: jadro
+ * Keywords: pricing, table
+ *
+ * @package Jadro
  */
 
-return array(
-  'title'      => __( 'Pricing Table', 'jadro' ),
-  'categories' => array( 'jadro' ),
-  'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem","right":"20px","left":"20px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"constrained"}} -->
-  <div class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:8rem;padding-right:20px;padding-bottom:8rem;padding-left:20px"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+?>
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem","right":"20px","left":"20px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:8rem;padding-right:20px;padding-bottom:8rem;padding-left:20px"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"center"} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center"} -->
 <div class="wp-block-column is-vertically-aligned-center"><!-- wp:group {"style":{"spacing":{"padding":{"top":"2.5rem","right":"2.5rem","bottom":"2.5rem","left":"2.5rem"}},"border":{"radius":"10px","width":"2px"}},"borderColor":"light-gray","layout":{"type":"constrained"}} -->
@@ -117,5 +117,4 @@ return array(
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group -->'
-);
+<!-- /wp:group -->

@@ -1,15 +1,15 @@
 <?php
-
 /**
  * Title: Call to Action
- * Slug: cta-default
- * Keywords: CTA
+ * Slug: jadro/cta-default
+ * Categories: jadro
+ * Keywords: cta, call-to-action
+ *
+ * @package Jadro
  */
 
-return array(
-  'title'      => __( 'Call to Action', 'jadro' ),
-  'categories' => array( 'jadro' ),
-  'content'    => '<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem"},"margin":{"top":"0px","bottom":"0px"}},"color":{"background":"#f3f6fb"}},"layout":{"type":"constrained"}} -->
+?>
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem"},"margin":{"top":"0px","bottom":"0px"}},"color":{"background":"#f3f6fb"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-background" style="background-color:#f3f6fb;margin-top:0px;margin-bottom:0px;padding-top:8rem;padding-bottom:8rem"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
@@ -39,5 +39,4 @@ return array(
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group --></div>
-<!-- /wp:group -->'
-);
+<!-- /wp:group -->

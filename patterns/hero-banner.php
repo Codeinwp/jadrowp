@@ -1,15 +1,15 @@
 <?php
-
 /**
- * Title: Hero banner
- * Slug: hero-banner
- * Keywords: Hero Banner
+ * Title: Hero Banner
+ * Slug: jadro/hero-banner
+ * Categories: jadro
+ * Keywords: hero, banner
+ *
+ * @package Jadro
  */
 
-return array(
-  'title'      => __( 'Hero Banner', 'jadro' ),
-  'categories' => array( 'jadro' ),
-  'content'    => '<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem","right":"20px","left":"20px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"default"}} -->
+?>
+<!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem","right":"20px","left":"20px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide" style="margin-top:0px;margin-bottom:0px;padding-top:8rem;padding-right:20px;padding-bottom:8rem;padding-left:20px"><!-- wp:heading {"textAlign":"center","fontSize":"max-60"} -->
 <h2 class="wp-block-heading has-text-align-center has-max-60-font-size">Minimal WordPress Block Theme</h2>
 <!-- /wp:heading -->
@@ -35,5 +35,4 @@ return array(
 <div class="wp-block-column"></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
-<!-- /wp:group -->'
-);
+<!-- /wp:group -->
