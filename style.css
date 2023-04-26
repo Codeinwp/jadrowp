@@ -19,13 +19,6 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.alignfull {
-	margin-left: calc(-100vw / 2 + 100% / 2);
-	margin-right: calc(-100vw / 2 + 100% / 2);
-	max-width: 100vw;
-	width: auto;
-}
-
 .wp-block-site-title a,
 .wp-block-query-pagination-numbers a,
 .wp-block-post-excerpt a {
