@@ -13,3 +13,145 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: jadro
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, blog, e-commerce, wide-blocks
 */
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.alignfull {
+  margin-left: calc(-100vw / 2 + 100% / 2);
+  margin-right: calc(-100vw / 2 + 100% / 2);
+  max-width: 100vw;
+  width: auto;
+}
+
+.wp-block-site-title a,
+.wp-block-query-pagination-numbers a,
+.wp-block-post-excerpt a {
+  text-decoration: inherit;
+}
+
+.wp-block-navigation ul,
+.wp-block-navigation ul li,
+.wp-block-navigation ul li a {
+  color: inherit;
+}
+
+.wp-block-navigation ul.wp-block-navigation-submenu {
+  padding: 0;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation-item,
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__container,
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-page-list {
+  align-items: flex-start;
+  width: 100%;
+  gap: 30px;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .wp-block-navigation__submenu-icon {
+  display: flex;
+  position: absolute;
+  top: 10px;
+  right: 0;
+  width: auto;
+  height: auto;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation__submenu-container {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+}
+
+.wp-block-navigation__responsive-container.is-menu-open .wp-block-navigation__responsive-container-content .has-child .wp-block-navigation-submenu__toggle:where([aria-expanded="true"]) + .wp-block-navigation__submenu-container {
+  opacity: 1;
+  visibility: visible;
+  position: static;
+  padding-top: 0;
+}
+
+.wp-block-comment-author-name a,
+.wp-block-comment-date a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.page .wp-block-template-part,
+.single .wp-block-template-part,
+.archive .wp-block-template-part {
+  margin-top: 0;
+}
+
+footer.wp-block-template-part {
+    margin-top: 0;
+}
+
+footer ul li a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+nav.wp-block-query-pagination {
+  margin-top: 6rem;
+}
+
+/* List styles
+--------------------------------------------- */
+ul li a,
+ol li a {
+  text-decoration: inherit;
+  color: inherit;
+}
+
+.is-style-default,
+.is-style-square {
+    padding-left: 22px;
+}
+
+.is-style-square {
+  list-style-type: square;
+}
+
+.is-style-checklist,
+.is-style-checklist-circle,
+.is-style-none {
+  list-style:none;
+  padding-left: 0;
+}
+
+.is-style-checklist li {
+  display: flex;
+  align-items: flex-start;
+}
+
+.is-style-checklist li:before {
+  content: '';
+  mask: url('assets/images/checklist.svg');
+  -webkit-mask: url('assets/images/checklist.svg');
+  height: 1.5em;
+  width: 1.5em;
+  min-height: 1.5em;
+  min-width: 1.5em;
+  margin-top: 5px;
+  background:currentColor;
+}
+
+.is-style-checklist-circle li {
+  display: flex;
+  align-items: flex-start;
+  column-gap: 8px;
+}
+
+.is-style-checklist-circle li:before {
+  content: '';
+  mask: url('assets/images/checklist-circle.svg');
+  -webkit-mask: url('assets/images/checklist-circle.svg');
+  height: 1em;
+  width: 1em;
+  min-height: 1em;
+  min-width: 1em;
+  margin-top: 10px;
+  background:currentColor;
+}
