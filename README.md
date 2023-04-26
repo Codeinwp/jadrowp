@@ -1,0 +1,2 @@
+# jadro
+WordPress FSE Theme
