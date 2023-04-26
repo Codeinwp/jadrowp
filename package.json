@@ -1,0 +1,27 @@
+{
+  "name": "jadro",
+  "version": "1.0.0",
+  "description": "",
+	"keywords": [],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jadrowp/jadro/"
+  },
+  "homepage": "https://github.com/jadrowp/jadro/",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "pot": "composer run-script pot",
+    "version": "easy-replace-in-files",
+    "deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
+  },
+  "browserslist": "> 1%, not dead",
+  "devDependencies": {
+    "bestzip": "^2.2.1",
+    "copy-files-from-to": "^3.8.0",
+    "cross-var": "^1.1.0",
+    "easy-replace-in-files": "^1.0.3",
+    "shx": "^0.3.4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "jadrowp/jadro",
+  "homepage": "https://github.com/jadrowp/jadro/",
+  "minimum-stability": "stable",
+  "description": "",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=5.6",
+    "wp-cli/i18n-command": "^2.4"
+  },
+  "scripts": {
+    "pot": "wp i18n make-pot . languages/jadro.pot"
+  }
+}

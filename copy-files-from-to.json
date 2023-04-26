@@ -1,0 +1,28 @@
+{
+  "copyFiles": [
+    {
+      "from": [
+        "**",
+        "!*.md",
+        "!*.dist",
+        "!*.json",
+        "!*.lock",
+        "!*.yaml",
+        "!*.js",
+        "!*.map",
+        "!build/**/*",
+        "!src/**/*",
+        "!resources/**/*",
+        "!sass/**/*",
+        "!scripts/**/*",
+        "!node_modules/**/*",
+        "!vendor/**/*",
+        "!deploy/**/*"
+      ],
+      "to": "deploy/temp/"
+    }
+  ],
+  "copyFilesSettings": {
+    "ignoreDotFilesAndFolders": true
+  }
+}
