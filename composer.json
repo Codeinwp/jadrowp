@@ -9,6 +9,6 @@
     "wp-cli/i18n-command": "^2.4"
   },
   "scripts": {
-    "pot": "wp i18n make-pot . languages/jadro.pot"
+    "pot": "wp i18n make-pot . languages/jadro.pot --exclude=vendor,deploy"
   }
 }
