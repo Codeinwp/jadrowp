@@ -42,6 +42,9 @@ function jadro_setup() {
 
 	// Enable block styles.
 	add_theme_support( 'wp-block-styles' );
+
+	// Enqueue editor styles.
+	add_editor_style();
 }
 
 add_action( 'after_setup_theme', 'jadro_setup' );
