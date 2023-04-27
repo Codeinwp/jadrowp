@@ -1,0 +1,64 @@
+/* List Block
+--------------------------------------------- */
+ul li a,
+ol li a {
+	text-decoration: inherit;
+	color: inherit;
+}
+
+.is-style-default,
+.is-style-square {
+	padding-left: 22px;
+}
+
+.is-style-square {
+	list-style-type: square;
+}
+
+.is-style-checklist,
+.is-style-checklist-circle,
+.is-style-none {
+	list-style: none;
+	padding-left: 0;
+}
+
+.is-style-checklist li {
+	display: flex;
+	align-items: flex-start;
+}
+
+.is-style-checklist li::before {
+	content: "";
+	mask: url("assets/images/checklist.svg");
+	-webkit-mask: url("assets/images/checklist.svg");
+	height: 1.5em;
+	width: 1.5em;
+	min-height: 1.5em;
+	min-width: 1.5em;
+	margin-top: 5px;
+	background: currentcolor;
+}
+
+.is-style-checklist-circle li {
+	display: flex;
+	align-items: flex-start;
+	column-gap: 8px;
+}
+
+.is-style-checklist-circle li::before {
+	content: "";
+	mask: url("assets/images/checklist-circle.svg");
+	-webkit-mask: url("assets/images/checklist-circle.svg");
+	height: 1em;
+	width: 1em;
+	min-height: 1em;
+	min-width: 1em;
+	margin-top: 10px;
+	background: currentcolor;
+}
+
+/* Button Block
+--------------------------------------------- */
+.wp-block-button[style*="text-decoration"] .wp-block-button__link {
+	text-underline-offset: 5px;
+}

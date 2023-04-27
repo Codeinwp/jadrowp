@@ -11,14 +11,23 @@
   },
   "homepage": "https://github.com/jadrowp/jadro/",
   "scripts": {
-		"preinstall": "npx only-allow pnpm",
+    "dev": "pnpm run build && gulp",
+    "build": "gulp build",
+    "prod": "gulp build --env production",
+    "preinstall": "npx only-allow pnpm",
     "pot": "composer run-script pot",
+		"lint:css": "wp-scripts lint-style 'src/**/*.{css,scss}'",
+    "lint:css:fix": "wp-scripts lint-style 'src/**/*.{css,scss}' --fix",
+    "lint:js": "wp-scripts lint-js gulpfile.js",
+    "lint:js:fix": "wp-scripts lint-js gulpfile.js --fix",
+    "rtl": "rtlcss style.css style-rtl.css && rtlcss editor-style.css editor-style-rtl.css",
     "version": "easy-replace-in-files",
-		"rtl": "rtlcss style.css style-rtl.css",
+    "ready": "pnpm run version && pnpm run pot && shx rm -rf assets/ && pnpm run prod && pnpm run rtl",
+    "predeploy": "pnpm run ready",
     "deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
   },
   "browserslist": "> 1%, not dead",
-	"rtlcssConfig": {
+  "rtlcssConfig": {
     "options": {
       "autoRename": false,
       "autoRenameStrict": false,
@@ -32,10 +41,23 @@
     "map": false
   },
   "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@wordpress/scripts": "^26.3.0",
     "bestzip": "^2.2.1",
+    "browser-sync": "^2.29.1",
     "copy-files-from-to": "^3.8.0",
     "cross-var": "^1.1.0",
+    "dotenv": "^16.0.3",
     "easy-replace-in-files": "^1.0.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-dart-sass": "^1.1.0",
+    "gulp-environments": "^1.0.1",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "postcss": "^8.4.23",
+    "postcss-preset-env": "^8.3.2",
     "rtlcss": "^4.1.0",
     "shx": "^0.3.4"
   }

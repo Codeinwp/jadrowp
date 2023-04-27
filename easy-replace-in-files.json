@@ -7,7 +7,7 @@
 			"to": "Stable tag: $$npm_package_version$$"
 		},
 		{
-			"files": "style.css",
+			"files": "src/sass/style.scss",
 			"from": "Version:\\s?(.+)",
 			"type": "regex",
 			"to": "Version: $$npm_package_version$$"
