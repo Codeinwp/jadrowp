@@ -149,28 +149,8 @@ ol li a {
 	background: currentcolor;
 }
 
-/* Button styles
+/* Button Block
 --------------------------------------------- */
-.wp-block-button.is-style-drop-shadow .wp-block-button__link {
-	border: 2px solid;
-	box-sizing: border-box;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.wp-block-button.is-style-rounded .wp-block-button__link {
-	border: 2px solid;
-	box-sizing: border-box;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.wp-block-button.is-style-drop-rectangle .wp-block-button__link {
-	border: 2px solid;
-	box-sizing: border-box;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-.wp-block-button.is-style-drop-shadow .wp-block-button__link {
-	border: 2px solid;
-	box-sizing: border-box;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.wp-block-button[style*=text-decoration] .wp-block-button__link {
+	text-underline-offset: 5px;
 }

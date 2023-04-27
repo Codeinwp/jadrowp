@@ -88,12 +88,6 @@ function jadro_register_block_styles() {
 			'square'           => esc_html__( 'Square', 'jadro' ),
 			'none'             => esc_html__( 'None', 'jadro' ),
 		),
-		'core/button' => array(
-			'drop-shadow' => esc_html__( 'Drop Shadow', 'jadro' ),
-			'rounded'     => esc_html__( 'Rounded', 'jadro' ),
-			'rectangle'   => esc_html__( 'Rectangle', 'jadro' ),
-			'underline'   => esc_html__( 'Underline', 'jadro' ),
-		),
 	);
 
 	foreach ( $block_styles as $block => $styles ) {
