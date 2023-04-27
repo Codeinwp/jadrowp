@@ -15,7 +15,7 @@ msgstr ""
 "X-Domain: jadro\n"
 
 #. Theme Name of the theme
-#: functions.php:73
+#: functions.php:71
 msgid "Jadro"
 msgstr ""
 
@@ -32,20 +32,36 @@ msgstr ""
 msgid "Jadro WP"
 msgstr ""
 
-#: functions.php:88
+#: functions.php:86
 msgid "Checklist"
 msgstr ""
 
-#: functions.php:89
+#: functions.php:87
 msgid "Checklist Circle"
 msgstr ""
 
-#: functions.php:90
+#: functions.php:88
 msgid "Square"
 msgstr ""
 
-#: functions.php:91
+#: functions.php:89
 msgid "None"
+msgstr ""
+
+#: functions.php:92
+msgid "Drop Shadow"
+msgstr ""
+
+#: functions.php:93
+msgid "Rounded"
+msgstr ""
+
+#: functions.php:94
+msgid "Rectangle"
+msgstr ""
+
+#: functions.php:95
+msgid "Underline"
 msgstr ""
 
 #: patterns/cta-default.php

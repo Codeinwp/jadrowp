@@ -82,17 +82,17 @@ add_action( 'init', 'jadro_register_block_patterns_category', 9 );
  */
 function jadro_register_block_styles() {
 	$block_styles = array(
-		'core/list' => array(
+		'core/list'   => array(
 			'checklist'        => esc_html__( 'Checklist', 'jadro' ),
 			'checklist-circle' => esc_html__( 'Checklist Circle', 'jadro' ),
 			'square'           => esc_html__( 'Square', 'jadro' ),
 			'none'             => esc_html__( 'None', 'jadro' ),
 		),
 		'core/button' => array(
-			'drop-shadow'      => esc_html__( 'Drop Shadow', 'jadro' ),
-			'rounded' 		   => esc_html__( 'Rounded', 'jadro' ),
-			'rectangle'        => esc_html__( 'Rectangle', 'jadro' ),
-			'underline'        => esc_html__( 'Underline', 'jadro' ),
+			'drop-shadow' => esc_html__( 'Drop Shadow', 'jadro' ),
+			'rounded'     => esc_html__( 'Rounded', 'jadro' ),
+			'rectangle'   => esc_html__( 'Rectangle', 'jadro' ),
+			'underline'   => esc_html__( 'Underline', 'jadro' ),
 		),
 	);
 
