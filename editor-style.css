@@ -1,3 +1,5 @@
+/* List Block
+--------------------------------------------- */
 ul li a,
 ol li a {
 	text-decoration: inherit;
@@ -53,4 +55,10 @@ ol li a {
 	min-width: 1em;
 	margin-top: 10px;
 	background: currentcolor;
+}
+
+/* Button Block
+--------------------------------------------- */
+.wp-block-button[style*=text-decoration] .wp-block-button__link {
+	text-underline-offset: 5px;
 }
