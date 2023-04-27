@@ -186,6 +186,9 @@
 				"border": {
 					"radius": "5px"
 				},
+				"typography": {
+          "lineHeight": "1"
+        },
 				"variations": {
 					"outline": {
 						"color": {
