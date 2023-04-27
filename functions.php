@@ -10,8 +10,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'JADRO_VERSION', '1.0.0' );
-define( 'JADRO_DIR', rtrim( get_template_directory(), '/' ) );
-define( 'JADRO_URI', rtrim( get_template_directory_uri(), '/' ) );
 
 /**
  * Theme setup.
