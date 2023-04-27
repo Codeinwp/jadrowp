@@ -156,3 +156,21 @@ ol li a {
 	box-sizing: border-box;
 	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+.wp-block-button.is-style-rounded .wp-block-button__link {
+	border: 2px solid;
+	box-sizing: border-box;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.wp-block-button.is-style-drop-rectangle .wp-block-button__link {
+	border: 2px solid;
+	box-sizing: border-box;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.wp-block-button.is-style-drop-shadow .wp-block-button__link {
+	border: 2px solid;
+	box-sizing: border-box;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
