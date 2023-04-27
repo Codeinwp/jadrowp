@@ -48,22 +48,6 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: functions.php:92
-msgid "Drop Shadow"
-msgstr ""
-
-#: functions.php:93
-msgid "Rounded"
-msgstr ""
-
-#: functions.php:94
-msgid "Rectangle"
-msgstr ""
-
-#: functions.php:95
-msgid "Underline"
-msgstr ""
-
 #: patterns/cta-default.php
 msgctxt "Pattern title"
 msgid "Call to Action"

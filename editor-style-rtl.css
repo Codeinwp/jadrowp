@@ -8,7 +8,7 @@ ol li a {
 
 .is-style-default,
 .is-style-square {
-  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .is-style-square {
@@ -19,7 +19,7 @@ ol li a {
 .is-style-checklist-circle,
 .is-style-none {
   list-style: none;
-  padding-left: 0;
+  padding-right: 0;
 }
 
 .is-style-checklist li {
