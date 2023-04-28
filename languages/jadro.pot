@@ -11,7 +11,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "POT-Creation-Date: \n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.7.1\n"
+"X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: jadro\n"
 
 #. Theme Name of the theme
@@ -48,132 +48,18 @@ msgstr ""
 msgid "None"
 msgstr ""
 
-#: patterns/cta-default.php
-msgctxt "Pattern title"
-msgid "Call to Action"
+#: functions.php:92
+msgid "Dotted"
 msgstr ""
 
-#: patterns/cta-full-width.php
-msgctxt "Pattern title"
-msgid "Call to Action Full Width"
+#: functions.php:93
+msgid "Wide Thin Line"
 msgstr ""
 
-#: patterns/features.php
-msgctxt "Pattern title"
-msgid "Features"
+#: functions.php:94
+msgid "Left Aligned"
 msgstr ""
 
-#: patterns/footer.php
-msgctxt "Pattern title"
-msgid "Footer"
-msgstr ""
-
-#: patterns/header.php
-msgctxt "Pattern title"
-msgid "Header"
-msgstr ""
-
-#: patterns/hero-banner.php
-msgctxt "Pattern title"
-msgid "Hero Banner"
-msgstr ""
-
-#: patterns/latest-articles.php
-msgctxt "Pattern title"
-msgid "Latest Articles"
-msgstr ""
-
-#: patterns/pricing-table.php
-msgctxt "Pattern title"
-msgid "Pricing Table"
-msgstr ""
-
-#: patterns/testimonials.php
-msgctxt "Pattern title"
-msgid "Testimonials"
-msgstr ""
-
-#: theme.json
-msgctxt "Custom template name"
-msgid "No Title and Space"
-msgstr ""
-
-#: theme.json
-msgctxt "Color name"
-msgid "Base"
-msgstr ""
-
-#: theme.json
-msgctxt "Color name"
-msgid "Primary"
-msgstr ""
-
-#: theme.json
-msgctxt "Color name"
-msgid "Light Gray"
-msgstr ""
-
-#: theme.json
-msgctxt "Color name"
-msgid "Darkish"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "xSmall"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Small"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Medium"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "Large"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "xLarge"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "36px"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "48px"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "60px"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "72px"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "82px"
-msgstr ""
-
-#: theme.json
-msgctxt "Template part name"
-msgid "Header"
-msgstr ""
-
-#: theme.json
-msgctxt "Template part name"
-msgid "Footer"
+#: functions.php:95
+msgid "Right Aligned"
 msgstr ""

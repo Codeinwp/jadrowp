@@ -62,3 +62,36 @@ ol li a {
 .wp-block-button[style*="text-decoration"] .wp-block-button__link {
 	text-underline-offset: 5px;
 }
+
+/* Separator Block
+--------------------------------------------- */
+hr {
+	&.wp-block-separator.has-background {
+		height: 2px !important;
+	}
+
+	&.wp-block-separator.is-style-dots {
+		height: auto !important;
+	}
+
+	&.wp-block-separator.is-style-dotted {
+		width: 100% !important;
+		border-bottom: none !important;
+		height: 1px !important;
+		background: repeating-linear-gradient(90deg,currentColor,currentColor 2px,transparent 2px,transparent 6px) !important;
+	}
+
+	&.wp-block-separator.is-style-wide-thin-line {
+		height: 1px !important;
+		border-width: 1px !important;
+		width: 100% !important;
+	}
+
+	&.wp-block-separator.is-style-left-aligned {
+		margin-left: 0 !important;
+	}
+
+	&.wp-block-separator.is-style-right-aligned {
+		margin-right: 0 !important;
+	}
+}
