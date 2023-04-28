@@ -88,6 +88,12 @@ function jadro_register_block_styles() {
 			'square'           => esc_html__( 'Square', 'jadro' ),
 			'none'             => esc_html__( 'None', 'jadro' ),
 		),
+		'core/separator'   => array(
+			'dotted'         => esc_html__( 'Dotted', 'jadro' ),
+			'wide-thin-line' => esc_html__( 'Wide Thin Line', 'jadro' ),
+			'left-aligned'   => esc_html__( 'Left Aligned', 'jadro' ),
+			'right-aligned'  => esc_html__( 'Right Aligned', 'jadro' ),
+		),
 	);
 
 	foreach ( $block_styles as $block => $styles ) {
