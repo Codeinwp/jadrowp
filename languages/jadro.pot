@@ -84,6 +84,11 @@ msgctxt "Pattern title"
 msgid "Footer"
 msgstr ""
 
+#: patterns/header-with-button.php
+msgctxt "Pattern title"
+msgid "Header with Button"
+msgstr ""
+
 #: patterns/header.php
 msgctxt "Pattern title"
 msgid "Header"
