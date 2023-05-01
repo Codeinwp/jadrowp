@@ -178,7 +178,8 @@
 					"slug": "max-82"
 				}
 			]
-		}
+		},
+		"useRootPaddingAwareAlignments": true
 	},
 	"styles": {
 		"blocks": {
@@ -187,8 +188,8 @@
 					"radius": "5px"
 				},
 				"typography": {
-          "lineHeight": "1"
-        },
+					"lineHeight": "1"
+				},
 				"variations": {
 					"outline": {
 						"color": {
@@ -226,7 +227,13 @@
 			}
 		},
 		"spacing": {
-			"blockGap": "24px"
+			"blockGap": "24px",
+			"padding": {
+				"bottom": "0px",
+				"left": "20px",
+				"right": "20px",
+				"top": "0px"
+			}
 		},
 		"typography": {
 			"fontFamily": "var:preset|font-family|oxygen",
