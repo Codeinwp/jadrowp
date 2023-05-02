@@ -168,3 +168,18 @@ hr.wp-block-separator.is-style-left-aligned {
 hr.wp-block-separator.is-style-right-aligned {
   margin-right: 0 !important;
 }
+
+/* Comment styles
+--------------------------------------------- */
+.wp-block-comment-template li.comment > .wp-block-columns {
+  column-gap: 12px !important;
+}
+.wp-block-comment-template .wp-block-comment-content {
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+.wp-block-comment-template .wp-block-comment-content {
+  background: #f3f6fb;
+  padding: 15px 30px;
+  border-radius: 10px;
+}
