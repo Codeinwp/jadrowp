@@ -30,6 +30,9 @@ ol li a,
 .wp-block-navigation ul li a,
 .wp-block-comment-author-name a,
 .wp-block-comment-date a,
+.wp-block-post-date a,
+.wp-block-post-terms a,
+.wp-block-post-author-name a,
 footer ul li a {
 	color: inherit;
 	text-decoration: inherit;
@@ -201,4 +204,26 @@ hr {
 	}
 }
 
+/* Single page and post styles
+--------------------------------------------- */
+.page,
+.single-post {
+	.wp-block-post-content {
+		a {
+			text-underline-offset: 3px;
+			text-decoration-thickness: 1px;
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			text-underline-offset: 5px;
+			text-decoration-thickness: 2px !important;
+
+			a {
+				color: inherit;
+				text-underline-offset: 5px;
+				text-decoration-thickness: 2px;
+			}
+		}
+	}
+}
 
