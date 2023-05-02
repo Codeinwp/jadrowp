@@ -26,8 +26,8 @@
 <h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Eliza Weber</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Life Coach</p>
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Life Coach</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -56,8 +56,8 @@
 <h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Danial Forbes</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Public Speaker</p>
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Public Speaker</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
@@ -86,8 +86,8 @@
 <h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Mario Peterson</h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<p style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Corporate Trainer</p>
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"small"} -->
+<p class="has-small-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Corporate Trainer</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
