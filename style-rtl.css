@@ -223,3 +223,8 @@ hr.wp-block-separator.is-style-right-aligned {
   text-underline-offset: 5px;
   text-decoration-thickness: 2px;
 }
+
+.single .wp-block-post-navigation-link a {
+  color: inherit;
+  text-decoration: inherit;
+}
