@@ -227,3 +227,11 @@ hr {
 	}
 }
 
+.single {
+	.wp-block-post-navigation-link {
+		a {
+			color: inherit;
+			text-decoration: inherit;
+		}
+	}
+}

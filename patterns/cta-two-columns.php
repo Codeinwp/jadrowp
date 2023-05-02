@@ -13,9 +13,9 @@
 <div class="wp-block-group alignfull has-background" style="background-color:#f3f6fb;margin-top:0px;margin-bottom:0px;padding-top:8rem;padding-bottom:8rem"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"textAlign":"left","level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"color":{"text":"#e06035"}},"fontSize":"medium"} -->
-<h5 class="wp-block-heading has-text-align-left has-text-color has-medium-font-size" style="color:#e06035;font-style:normal;font-weight:600">Call to Action</h5>
-<!-- /wp:heading -->
+<div class="wp-block-column"><!-- wp:paragraph {"textAlign":"left","level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"color":{"text":"#e06035"}},"fontSize":"medium"} -->
+<p class="has-text-align-left has-text-color has-medium-font-size" style="color:#e06035;font-style:normal;font-weight:600">Call to Action</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"left","fontSize":"max-60"} -->
 <h2 class="wp-block-heading has-text-align-left has-max-60-font-size">Add Your Heading Here</h2>
@@ -33,7 +33,7 @@
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button">Get In Touch →</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#">Get In Touch →</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
