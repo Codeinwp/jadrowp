@@ -28,20 +28,24 @@
             <!-- wp:column {"width":"720px"} -->
             <div class="wp-block-column" style="flex-basis:720px">
                 <!-- wp:paragraph {"align":"center"} -->
-                <p class="has-text-align-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p class="has-text-align-center">
+                    <?php _e('Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.', 'jadro'); ?>
+                </p>
                 <!-- /wp:paragraph -->
 
                 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"center"}} -->
                 <div class="wp-block-buttons">
                     <!-- wp:button -->
-                    <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#">Get Started
-                            →</a></div>
+                    <div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#">
+                            <?php _e('Get Started
+                            →', 'jadro'); ?>
+                        </a></div>
                     <!-- /wp:button -->
 
                     <!-- wp:button {"className":"is-style-outline"} -->
                     <div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button"
-                            href="#">Learn More →</a></div>
+                            href="#"><?php _e('Learn More →', 'jadro'); ?></a></div>
                     <!-- /wp:button -->
                 </div>
                 <!-- /wp:buttons -->
