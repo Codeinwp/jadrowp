@@ -35,3 +35,9 @@ WordPress FSE theme by JadroWP.
 * `pnpm run lint:js` - Run this to check if there are any issues in JavaScripts files.
 * `pnpm run lint:css` - Run this to check if there are any issues in SCSS files.
 * `pnpm run deploy` - This will prepare the theme for the production/release. Zip file will be inside `deploy` folder.
+
+# Contributors
+
+<a href="https://github.com/jadrowp/jadro/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=jadrowp/jadro" />
+</a>
