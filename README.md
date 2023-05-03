@@ -23,6 +23,7 @@ WordPress FSE theme by JadroWP.
 ## Setup
 
 - Run `pnpm install` to install Node dependencies.
+- Run `pnpm dlx husky add .husky/pre-commit 'pnpm dlx lint-staged'` to setup Husky.
 - Run `composer install` to install composer dependencies.
 - Run `cp .env.example .env` to create `.env` file.
 - Edit `DEV_SERVER_URL` in your `.env` file to match the url of your local WP server.

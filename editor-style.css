@@ -29,8 +29,8 @@ ol li a {
 
 .is-style-checklist li::before {
   content: "";
-  mask: url("assets/images/checklist.svg");
-  -webkit-mask: url("assets/images/checklist.svg");
+  mask: url(assets/images/checklist.svg);
+  -webkit-mask: url(assets/images/checklist.svg);
   height: 1.5em;
   width: 1.5em;
   min-height: 1.5em;
@@ -47,8 +47,8 @@ ol li a {
 
 .is-style-checklist-circle li::before {
   content: "";
-  mask: url("assets/images/checklist-circle.svg");
-  -webkit-mask: url("assets/images/checklist-circle.svg");
+  mask: url(assets/images/checklist-circle.svg);
+  -webkit-mask: url(assets/images/checklist-circle.svg);
   height: 1em;
   width: 1em;
   min-height: 1em;
@@ -75,7 +75,7 @@ hr.wp-block-separator.is-style-dotted {
   width: 100% !important;
   border-bottom: none !important;
   height: 1px !important;
-  background: repeating-linear-gradient(90deg, currentColor, currentColor 2px, transparent 2px, transparent 6px) !important;
+  background: repeating-linear-gradient(90deg, currentcolor, currentcolor 2px, transparent 2px, transparent 6px) !important;
 }
 hr.wp-block-separator.is-style-wide-thin-line {
   height: 1px !important;
