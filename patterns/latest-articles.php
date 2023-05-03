@@ -9,8 +9,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"8rem","top":"7rem","right":"20px","left":"20px"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group alignfull" style="padding-top:7rem;padding-right:20px;padding-bottom:8rem;padding-left:20px"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"8rem","top":"7rem","right":"20px","left":"20px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:7rem;padding-right:20px;padding-bottom:8rem;padding-left:20px"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"max-60"} -->
 <h2 class="wp-block-heading has-text-align-center has-max-60-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Latest Articles</h2>
 <!-- /wp:heading -->
