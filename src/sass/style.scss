@@ -45,6 +45,7 @@ footer ul li a {
 /* Responsive menu styles
 --------------------------------------------- */
 .wp-block-navigation__responsive-container.is-menu-open {
+
 	&.has-modal-open {
 		padding-top: 30px;
 	}
@@ -96,7 +97,8 @@ nav.wp-block-query-pagination {
 
 /* List styles
 --------------------------------------------- */
-ul, ol,
+ul,
+ol,
 .is-style-default,
 .is-style-square {
 	padding-left: 22px;
@@ -120,8 +122,8 @@ ul, ol,
 
 .is-style-checklist li::before {
 	content: "";
-	mask: url("assets/images/checklist.svg");
-	-webkit-mask: url("assets/images/checklist.svg");
+	mask: url(assets/images/checklist.svg);
+	-webkit-mask: url(assets/images/checklist.svg);
 	height: 1.5em;
 	width: 1.5em;
 	min-height: 1.5em;
@@ -138,8 +140,8 @@ ul, ol,
 
 .is-style-checklist-circle li::before {
 	content: "";
-	mask: url("assets/images/checklist-circle.svg");
-	-webkit-mask: url("assets/images/checklist-circle.svg");
+	mask: url(assets/images/checklist-circle.svg);
+	-webkit-mask: url(assets/images/checklist-circle.svg);
 	height: 1em;
 	width: 1em;
 	min-height: 1em;
@@ -157,6 +159,7 @@ ul, ol,
 /* Separator Block
 --------------------------------------------- */
 hr {
+
 	&.wp-block-separator.has-background {
 		height: 2px !important;
 	}
@@ -169,7 +172,7 @@ hr {
 		width: 100% !important;
 		border-bottom: none !important;
 		height: 1px !important;
-		background: repeating-linear-gradient(90deg,currentColor,currentColor 2px,transparent 2px,transparent 6px) !important;
+		background: repeating-linear-gradient(90deg, currentcolor, currentcolor 2px, transparent 2px, transparent 6px) !important;
 	}
 
 	&.wp-block-separator.is-style-wide-thin-line {
@@ -190,8 +193,10 @@ hr {
 /* Comment styles
 --------------------------------------------- */
 .wp-block-comment-template {
+
 	li.comment {
-		& > .wp-block-columns {
+
+		> .wp-block-columns {
 			column-gap: 12px !important;
 		}
 	}
@@ -209,13 +214,20 @@ hr {
 --------------------------------------------- */
 .page,
 .single-post {
+
 	.wp-block-post-content {
+
 		a {
 			text-underline-offset: 3px;
 			text-decoration-thickness: 1px;
 		}
 
-		h1, h2, h3, h4, h5, h6 {
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
 			text-underline-offset: 5px;
 			text-decoration-thickness: 2px !important;
 
@@ -229,7 +241,9 @@ hr {
 }
 
 .single {
+
 	.wp-block-post-navigation-link {
+
 		a {
 			color: inherit;
 			text-decoration: inherit;
