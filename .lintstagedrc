@@ -1,4 +1,5 @@
 {
 	"{src/**/*.js,gulpfile.js}": "pnpm run lint:js",
-	"src/**/*.scss": "pnpm run lint:css"
+	"src/**/*.scss": "pnpm run lint:css",
+	"**/*.php": "composer run compat"
 }

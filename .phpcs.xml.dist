@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Coding Standards for theme">
+  <description>Apply WordPress Coding Standards</description>
+
+  <!-- What to scan -->
+  <file>.</file>
+
+  <!-- Exclude files and folders -->
+  <exclude-pattern>*/bower-components/*</exclude-pattern>
+  <exclude-pattern>*/deploy/*</exclude-pattern>
+  <exclude-pattern>*/languages/*</exclude-pattern>
+  <exclude-pattern>*/node_modules/*</exclude-pattern>
+  <exclude-pattern>*/tests/*</exclude-pattern>
+  <exclude-pattern>*/vendor/*</exclude-pattern>
+  <exclude-pattern>*/phpunit.xml*</exclude-pattern>
+  <exclude-pattern>*lib/*</exclude-pattern>
+  <exclude-pattern>*\.(css|js)</exclude-pattern>
+
+  <!-- How to scan -->
+  <!-- Usage instructions: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Usage -->
+  <!-- Annotated ruleset: https://github.com/squizlabs/PHP_CodeSniffer/wiki/Annotated-ruleset.xml -->
+  <arg value="sp"/> <!-- Show sniff and progress -->
+  <arg name="basepath" value="./"/><!-- Strip the file paths down to the relevant bit -->
+  <arg name="colors"/>
+  <arg name="extensions" value="php"/>
+  <arg name="parallel" value="8"/><!-- Enables parallel processing when available for faster results. -->
+
+  <!-- Minimum support WP Version. -->
+  <config name="minimum_supported_wp_version" value="4.9"/>
+
+  <!-- Don't worry about files that don't contain any code -->
+  <rule ref="Internal.NoCodeFound">
+    <severity>0</severity>
+  </rule>
+
+  <!-- For CI, don't fail on warnings -->
+  <config name="ignore_warnings_on_exit" value="1"/>
+
+  <!-- Include the WordPress rulesets. -->
+  <rule ref="WordPress">
+    <exclude name="WordPress.WP.AlternativeFunctions.file_get_contents_file_get_contents"/>
+	</rule>
+
+  <rule ref="WordPress.WhiteSpace.ControlStructureSpacing">
+    <properties>
+      <property name="blank_line_check" value="true"/>
+    </properties>
+  </rule>
+
+  <rule ref="WordPress-Extra">
+    <!-- Forget about file names -->
+    <exclude name="WordPress.Files.FileName"/>
+
+    <!-- Allow WP global modification -->
+    <exclude name="WordPress.WP.GlobalVariablesOverride.Prohibited"/>
+
+    <!-- This nonce sniff almost never works right -->
+    <exclude name="WordPress.Security.NonceVerification.Missing"/>
+
+    <!-- Remove nonce notice -->
+    <exclude name="WordPress.Security.NonceVerification.Recommended"/>
+  </rule>
+
+  <!-- Make missing translator comment a warning. -->
+  <rule ref="WordPress.WP.I18n.MissingTranslatorsComment">
+    <type>warning</type>
+  </rule>
+
+  <!-- Sometimes we need to override globals -->
+  <rule ref="WordPress.WP.GlobalVariablesOverride.OverrideProhibited">
+    <type>warning</type>
+  </rule>
+</ruleset>
