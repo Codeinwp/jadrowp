@@ -69,6 +69,26 @@ msgctxt "Pattern title"
 msgid "Call to Action"
 msgstr ""
 
+#: patterns/cta-default.php:19
+msgid "Add Call to Action Heading Here"
+msgstr ""
+
+#: patterns/cta-default.php:32
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do\n"
+"                    eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: patterns/cta-default.php:41
+msgid ""
+"Get Started\n"
+"                            →"
+msgstr ""
+
+#: patterns/cta-default.php:48
+msgid "Learn More →"
+msgstr ""
+
 #: patterns/cta-two-columns.php
 msgctxt "Pattern title"
 msgid "Call to Action 2 Columns"
@@ -77,6 +97,26 @@ msgstr ""
 #: patterns/features.php
 msgctxt "Pattern title"
 msgid "Features"
+msgstr ""
+
+#: patterns/features.php:25
+msgid "Simple, Clean &amp; minimal Full Site Editing theme."
+msgstr ""
+
+#: patterns/features.php:37
+msgid "Speed Optimized."
+msgstr ""
+
+#: patterns/features.php:41
+msgid "Lightning fast theme that loads in fractions of seconds."
+msgstr ""
+
+#: patterns/features.php:53
+msgid "Regular Updates"
+msgstr ""
+
+#: patterns/features.php:57
+msgid "Useful features, pattern library &amp; regular updates."
 msgstr ""
 
 #: patterns/footer.php
@@ -107,6 +147,90 @@ msgstr ""
 #: patterns/pricing-table.php
 msgctxt "Pattern title"
 msgid "Pricing Table"
+msgstr ""
+
+#: patterns/pricing-table.php:19
+msgid "Basic"
+msgstr ""
+
+#: patterns/pricing-table.php:24
+msgid "$49"
+msgstr ""
+
+#: patterns/pricing-table.php:28
+#: patterns/pricing-table.php:91
+#: patterns/pricing-table.php:154
+msgid "year"
+msgstr ""
+
+#: patterns/pricing-table.php:39
+msgid "Responsive Layouts"
+msgstr ""
+
+#: patterns/pricing-table.php:47
+msgid "Full Site Editing"
+msgstr ""
+
+#: patterns/pricing-table.php:55
+msgid "Block Pattern Library"
+msgstr ""
+
+#: patterns/pricing-table.php:63
+msgid "Support via Public Forum"
+msgstr ""
+
+#: patterns/pricing-table.php:70
+#: patterns/pricing-table.php:133
+#: patterns/pricing-table.php:196
+msgid "Get Started"
+msgstr ""
+
+#: patterns/pricing-table.php:82
+msgid "Advanced"
+msgstr ""
+
+#: patterns/pricing-table.php:87
+msgid "$99"
+msgstr ""
+
+#: patterns/pricing-table.php:102
+msgid "Everything in Basic"
+msgstr ""
+
+#: patterns/pricing-table.php:110
+msgid "One Click Demo Import"
+msgstr ""
+
+#: patterns/pricing-table.php:118
+msgid "Additional Block Patterns"
+msgstr ""
+
+#: patterns/pricing-table.php:126
+msgid "Support via Dedicated Email"
+msgstr ""
+
+#: patterns/pricing-table.php:145
+msgid "Premium"
+msgstr ""
+
+#: patterns/pricing-table.php:150
+msgid "$499"
+msgstr ""
+
+#: patterns/pricing-table.php:165
+msgid "Everything in Advanced"
+msgstr ""
+
+#: patterns/pricing-table.php:173
+msgid "Monthly Maintenance Service"
+msgstr ""
+
+#: patterns/pricing-table.php:181
+msgid "Website Security Hardening"
+msgstr ""
+
+#: patterns/pricing-table.php:189
+msgid "Onpage SEO Included"
 msgstr ""
 
 #: patterns/testimonials.php

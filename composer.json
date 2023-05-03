@@ -5,10 +5,12 @@
   "description": "",
   "license": "GPL-2.0-or-later",
   "require": {
-    "php": ">=5.6",
-    "wp-cli/i18n-command": "^2.4"
+    "php": ">=5.6"
   },
   "scripts": {
-    "pot": "wp i18n make-pot . languages/jadro.pot --exclude=vendor,deploy --headers='{\"POT-Creation-Date\":\"\"}'"
+    "pot": "./vendor/wp-cli/wp-cli/bin/wp i18n make-pot . languages/jadro.pot --exclude=vendor,deploy --headers='{\"POT-Creation-Date\":\"\"}'"
+  },
+  "require-dev": {
+    "wp-cli/i18n-command": "^2.4"
   }
 }
