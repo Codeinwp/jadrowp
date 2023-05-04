@@ -23,17 +23,17 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"75%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Eliza Weber</h2>
+<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Eliza Weber', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Life Coach</p>
+<p class="has-small-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Life Coach', 'jadro' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left">Simple, Clean &amp; minimal Full Site Editing theme.</p>
+<p class="has-text-align-left"><?php esc_html_e( 'Simple, Clean &amp; minimal Full Site Editing theme.', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px","right":"0px","bottom":"0px","left":"0px"}}},"textColor":"primary"} -->
@@ -53,17 +53,17 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"75%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Danial Forbes</h2>
+<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Danial Forbes', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Public Speaker</p>
+<p class="has-small-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Public Speaker', 'jadro' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left">Lightning fast theme that loads in fractions of seconds.</p>
+<p class="has-text-align-left"><?php esc_html_e( 'Lightning fast theme that loads in fractions of seconds.', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px","right":"0px","bottom":"0px","left":"0px"}}},"textColor":"primary"} -->
@@ -83,17 +83,17 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"75%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Mario Peterson</h2>
+<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Mario Peterson', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"small"} -->
-<p class="has-small-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px">Corporate Trainer</p>
+<p class="has-small-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Corporate Trainer', 'jadro' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 
 <!-- wp:paragraph {"align":"left"} -->
-<p class="has-text-align-left">Useful features, pattern library &amp; regular updates.</p>
+<p class="has-text-align-left"><?php esc_html_e( 'Useful features, pattern library &amp; regular updates.', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"10px","right":"0px","bottom":"0px","left":"0px"}}},"textColor":"primary"} -->
