@@ -129,7 +129,6 @@ msgid "Full Site Editing"
 msgstr ""
 
 #: patterns/features.php:26
-#: patterns/testimonials.php:36
 msgid "Simple, Clean &amp; minimal Full Site Editing theme."
 msgstr ""
 
@@ -138,7 +137,7 @@ msgid "Speed Optimized"
 msgstr ""
 
 #: patterns/features.php:42
-#: patterns/testimonials.php:66
+#: patterns/testimonials.php:86
 msgid "Lightning fast theme that loads in fractions of seconds."
 msgstr ""
 
@@ -147,7 +146,7 @@ msgid "Regular Updates"
 msgstr ""
 
 #: patterns/features.php:58
-#: patterns/testimonials.php:96
+#: patterns/testimonials.php:116
 msgid "Useful features, pattern library &amp; regular updates."
 msgstr ""
 
@@ -338,7 +337,6 @@ msgid "An experienced team working together, crafting exceptional experiences, a
 msgstr ""
 
 #: patterns/team-members.php:42
-#: patterns/testimonials.php:26
 msgid "Eliza Weber"
 msgstr ""
 
@@ -347,7 +345,6 @@ msgid "Director"
 msgstr ""
 
 #: patterns/team-members.php:58
-#: patterns/testimonials.php:56
 msgid "Danial Forbes"
 msgstr ""
 
@@ -368,20 +365,20 @@ msgctxt "Pattern title"
 msgid "Testimonials"
 msgstr ""
 
-#: patterns/testimonials.php:30
-msgid "Life Coach"
+#: patterns/testimonials.php:17
+msgid "Customer Reviews"
 msgstr ""
 
-#: patterns/testimonials.php:60
-msgid "Public Speaker"
+#: patterns/testimonials.php:21
+msgid "Testimonials"
 msgstr ""
 
-#: patterns/testimonials.php:86
-msgid "Mario Peterson"
+#: patterns/testimonials.php:27
+msgid "A range of testimonials from our happy customers across a variety of industries and use cases."
 msgstr ""
 
-#: patterns/testimonials.php:90
-msgid "Corporate Trainer"
+#: patterns/testimonials.php:56
+msgid "Simple, clean &amp; minimal Full Site Editing theme."
 msgstr ""
 
 #: theme.json
