@@ -22,7 +22,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e('Simple, Clean &amp; minimal Full Site Editing theme.', 'jadro'); ?></p>
+<p class="has-text-align-center"><?php esc_html_e('Simple, Clean &amp; minimal Full Site Editing theme.', 'jadro'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -34,11 +34,11 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php _e('Speed Optimized.', 'jadro'); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e('Speed Optimized.', 'jadro'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e('Lightning fast theme that loads in fractions of seconds.', 'jadro'); ?></p>
+<p class="has-text-align-center"><?php esc_html_e('Lightning fast theme that loads in fractions of seconds.', 'jadro'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -50,11 +50,11 @@
 <!-- /wp:image -->
 
 <!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php _e('Regular Updates', 'jadro'); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e('Regular Updates', 'jadro'); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center"><?php _e('Useful features, pattern library &amp; regular updates.', 'jadro'); ?></p>
+<p class="has-text-align-center"><?php esc_html_e('Useful features, pattern library &amp; regular updates.', 'jadro'); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
