@@ -14,26 +14,26 @@
 <div class="wp-block-group alignwide"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph {"textAlign":"left","level":5,"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"color":{"text":"#e06035"}},"fontSize":"medium"} -->
-<p class="has-text-align-left has-text-color has-medium-font-size" style="color:#e06035;font-style:normal;font-weight:600">Call to Action</p>
+<p class="has-text-align-left has-text-color has-medium-font-size" style="color:#e06035;font-style:normal;font-weight:600"><?php esc_html_e( 'Call to Action', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"left","fontSize":"max-60"} -->
-<h2 class="wp-block-heading has-text-align-left has-max-60-font-size">Add Your Heading Here</h2>
+<h2 class="wp-block-heading has-text-align-left has-max-60-font-size"><?php esc_html_e( 'Add Your Heading Here', 'jadro' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:paragraph -->
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<p><?php esc_html_e( 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph -->
-<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p><?php esc_html_e( 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button -->
-<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#">Get In Touch →</a></div>
+<div class="wp-block-button"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Get In Touch', 'jadro' ); ?> →</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:column --></div>
