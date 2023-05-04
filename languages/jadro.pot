@@ -80,6 +80,7 @@ msgstr ""
 
 #: patterns/cta-default.php:30
 #: patterns/header-with-button.php:32
+#: patterns/hero-banner.php:31
 #: patterns/pricing-table.php:67
 #: patterns/pricing-table.php:125
 #: patterns/pricing-table.php:183
@@ -87,6 +88,7 @@ msgid "Get Started"
 msgstr ""
 
 #: patterns/cta-default.php:34
+#: patterns/hero-banner.php:35
 msgid "Learn More"
 msgstr ""
 
@@ -121,6 +123,7 @@ msgid "Features"
 msgstr ""
 
 #: patterns/features.php:22
+#: patterns/hero-banner.php:18
 #: patterns/pricing-table.php:45
 msgid "Full Site Editing"
 msgstr ""
@@ -214,6 +217,19 @@ msgstr ""
 #: patterns/header.php
 msgctxt "Pattern title"
 msgid "Header"
+msgstr ""
+
+#: patterns/hero-banner.php
+msgctxt "Pattern title"
+msgid "Hero Banner"
+msgstr ""
+
+#: patterns/hero-banner.php:22
+msgid "WordPress Block Theme"
+msgstr ""
+
+#: patterns/hero-banner.php:26
+msgid "Simple, Clean, and Lightning Fast Full Site Editing Theme. Google Core Web Vitals and Search Engines optimized WordPress block theme."
 msgstr ""
 
 #: patterns/latest-articles.php
