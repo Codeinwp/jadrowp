@@ -20,7 +20,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"max-60"} -->
-<p class="has-max-60-font-size">$49</p>
+<p class="has-max-60-font-size"><?php esc_html_e( '$49', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
@@ -78,7 +78,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"max-60"} -->
-<p class="has-max-60-font-size">$99</p>
+<p class="has-max-60-font-size"><?php esc_html_e( '$99', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
@@ -136,7 +136,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"flex","flexWrap":"nowrap","verticalAlignment":"center","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"fontSize":"max-60"} -->
-<p class="has-max-60-font-size">$499</p>
+<p class="has-max-60-font-size"><?php esc_html_e( '$499', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"1.5rem"}}}} -->
