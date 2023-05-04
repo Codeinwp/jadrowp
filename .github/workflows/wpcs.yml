@@ -12,3 +12,4 @@ jobs:
           uses: 10up/wpcs-action@stable
           with:
               repo_branch: 'main'
+              enable_warnings: true
