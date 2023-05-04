@@ -29,7 +29,7 @@
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"right"}} -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#">Get Started</a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link wp-element-button" href="#"><?php esc_html_e( 'Get Started', 'jadro' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

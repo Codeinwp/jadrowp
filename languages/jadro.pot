@@ -69,24 +69,27 @@ msgctxt "Pattern title"
 msgid "Call to Action"
 msgstr ""
 
-#: patterns/cta-default.php:19
+#: patterns/cta-default.php:15
 msgid "Add Call to Action Heading Here"
 msgstr ""
 
-#: patterns/cta-default.php:32
-msgid ""
-"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do\n"
-"                    eiusmod tempor incididunt ut labore et dolore magna aliqua."
+#: patterns/cta-default.php:25
+#: patterns/footer.php:80
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 msgstr ""
 
-#: patterns/cta-default.php:41
-msgid ""
-"Get Started\n"
-"                            →"
+#: patterns/cta-default.php:30
+#: patterns/header-with-button.php:32
+#: patterns/hero-banner.php:31
+#: patterns/pricing-table.php:67
+#: patterns/pricing-table.php:125
+#: patterns/pricing-table.php:183
+msgid "Get Started"
 msgstr ""
 
-#: patterns/cta-default.php:48
-msgid "Learn More →"
+#: patterns/cta-default.php:34
+#: patterns/hero-banner.php:35
+msgid "Learn More"
 msgstr ""
 
 #: patterns/cta-two-columns.php
@@ -94,34 +97,116 @@ msgctxt "Pattern title"
 msgid "Call to Action 2 Columns"
 msgstr ""
 
+#: patterns/cta-two-columns.php:17
+msgid "Call to Action"
+msgstr ""
+
+#: patterns/cta-two-columns.php:21
+msgid "Add Your Heading Here"
+msgstr ""
+
+#: patterns/cta-two-columns.php:27
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+msgstr ""
+
+#: patterns/cta-two-columns.php:31
+msgid "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+msgstr ""
+
+#: patterns/cta-two-columns.php:36
+msgid "Get In Touch"
+msgstr ""
+
 #: patterns/features.php
 msgctxt "Pattern title"
 msgid "Features"
 msgstr ""
 
-#: patterns/features.php:25
+#: patterns/features.php:22
+#: patterns/hero-banner.php:18
+#: patterns/pricing-table.php:45
+msgid "Full Site Editing"
+msgstr ""
+
+#: patterns/features.php:26
+#: patterns/testimonials.php:36
 msgid "Simple, Clean &amp; minimal Full Site Editing theme."
 msgstr ""
 
-#: patterns/features.php:37
-msgid "Speed Optimized."
+#: patterns/features.php:38
+msgid "Speed Optimized"
 msgstr ""
 
-#: patterns/features.php:41
+#: patterns/features.php:42
+#: patterns/testimonials.php:66
 msgid "Lightning fast theme that loads in fractions of seconds."
 msgstr ""
 
-#: patterns/features.php:53
+#: patterns/features.php:54
 msgid "Regular Updates"
 msgstr ""
 
-#: patterns/features.php:57
+#: patterns/features.php:58
+#: patterns/testimonials.php:96
 msgid "Useful features, pattern library &amp; regular updates."
 msgstr ""
 
 #: patterns/footer.php
 msgctxt "Pattern title"
 msgid "Footer"
+msgstr ""
+
+#: patterns/footer.php:18
+msgid "Company"
+msgstr ""
+
+#: patterns/footer.php:23
+#: patterns/footer.php:76
+msgid "About"
+msgstr ""
+
+#: patterns/footer.php:27
+msgid "Success Stories"
+msgstr ""
+
+#: patterns/footer.php:31
+msgid "Help Center"
+msgstr ""
+
+#: patterns/footer.php:35
+msgid "Support Forum"
+msgstr ""
+
+#: patterns/footer.php:39
+msgid "Customization Request"
+msgstr ""
+
+#: patterns/footer.php:46
+msgid "Quick Links"
+msgstr ""
+
+#: patterns/footer.php:51
+msgid "Affiliate"
+msgstr ""
+
+#: patterns/footer.php:55
+msgid "Showcase"
+msgstr ""
+
+#: patterns/footer.php:59
+msgid "Get Involved"
+msgstr ""
+
+#: patterns/footer.php:63
+msgid "Privacy Policies"
+msgstr ""
+
+#: patterns/footer.php:67
+msgid "Terms & Conditions"
+msgstr ""
+
+#: patterns/footer.php:100
+msgid "Copyright © 2023. All Rights Reserved."
 msgstr ""
 
 #: patterns/header-with-button.php
@@ -139,8 +224,20 @@ msgctxt "Pattern title"
 msgid "Hero Banner"
 msgstr ""
 
+#: patterns/hero-banner.php:22
+msgid "WordPress Block Theme"
+msgstr ""
+
+#: patterns/hero-banner.php:26
+msgid "Simple, Clean, and Lightning Fast Full Site Editing Theme. Google Core Web Vitals and Search Engines optimized WordPress block theme."
+msgstr ""
+
 #: patterns/latest-articles.php
 msgctxt "Pattern title"
+msgid "Latest Articles"
+msgstr ""
+
+#: patterns/latest-articles.php:15
 msgid "Latest Articles"
 msgstr ""
 
@@ -149,93 +246,95 @@ msgctxt "Pattern title"
 msgid "Pricing Table"
 msgstr ""
 
-#: patterns/pricing-table.php:19
+#: patterns/pricing-table.php:18
 msgid "Basic"
 msgstr ""
 
-#: patterns/pricing-table.php:24
-msgid "$49"
+#: patterns/pricing-table.php:27
+#: patterns/pricing-table.php:85
+#: patterns/pricing-table.php:143
+msgid "/year"
 msgstr ""
 
-#: patterns/pricing-table.php:28
-#: patterns/pricing-table.php:91
-#: patterns/pricing-table.php:154
-msgid "year"
-msgstr ""
-
-#: patterns/pricing-table.php:39
+#: patterns/pricing-table.php:37
 msgid "Responsive Layouts"
 msgstr ""
 
-#: patterns/pricing-table.php:47
-msgid "Full Site Editing"
-msgstr ""
-
-#: patterns/pricing-table.php:55
+#: patterns/pricing-table.php:53
 msgid "Block Pattern Library"
 msgstr ""
 
-#: patterns/pricing-table.php:63
+#: patterns/pricing-table.php:61
 msgid "Support via Public Forum"
 msgstr ""
 
-#: patterns/pricing-table.php:70
-#: patterns/pricing-table.php:133
-#: patterns/pricing-table.php:196
-msgid "Get Started"
-msgstr ""
-
-#: patterns/pricing-table.php:82
+#: patterns/pricing-table.php:76
 msgid "Advanced"
 msgstr ""
 
-#: patterns/pricing-table.php:87
-msgid "$99"
-msgstr ""
-
-#: patterns/pricing-table.php:102
+#: patterns/pricing-table.php:95
 msgid "Everything in Basic"
 msgstr ""
 
-#: patterns/pricing-table.php:110
+#: patterns/pricing-table.php:103
 msgid "One Click Demo Import"
 msgstr ""
 
-#: patterns/pricing-table.php:118
+#: patterns/pricing-table.php:111
 msgid "Additional Block Patterns"
 msgstr ""
 
-#: patterns/pricing-table.php:126
+#: patterns/pricing-table.php:119
 msgid "Support via Dedicated Email"
 msgstr ""
 
-#: patterns/pricing-table.php:145
+#: patterns/pricing-table.php:134
 msgid "Premium"
 msgstr ""
 
-#: patterns/pricing-table.php:150
-msgid "$499"
-msgstr ""
-
-#: patterns/pricing-table.php:165
+#: patterns/pricing-table.php:153
 msgid "Everything in Advanced"
 msgstr ""
 
-#: patterns/pricing-table.php:173
+#: patterns/pricing-table.php:161
 msgid "Monthly Maintenance Service"
 msgstr ""
 
-#: patterns/pricing-table.php:181
+#: patterns/pricing-table.php:169
 msgid "Website Security Hardening"
 msgstr ""
 
-#: patterns/pricing-table.php:189
+#: patterns/pricing-table.php:177
 msgid "Onpage SEO Included"
 msgstr ""
 
 #: patterns/testimonials.php
 msgctxt "Pattern title"
 msgid "Testimonials"
+msgstr ""
+
+#: patterns/testimonials.php:26
+msgid "Eliza Weber"
+msgstr ""
+
+#: patterns/testimonials.php:30
+msgid "Life Coach"
+msgstr ""
+
+#: patterns/testimonials.php:56
+msgid "Danial Forbes"
+msgstr ""
+
+#: patterns/testimonials.php:60
+msgid "Public Speaker"
+msgstr ""
+
+#: patterns/testimonials.php:86
+msgid "Mario Peterson"
+msgstr ""
+
+#: patterns/testimonials.php:90
+msgid "Corporate Trainer"
 msgstr ""
 
 #: theme.json
