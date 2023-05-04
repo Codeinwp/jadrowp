@@ -337,6 +337,7 @@ msgid "An experienced team working together, crafting exceptional experiences, a
 msgstr ""
 
 #: patterns/team-members.php:42
+#: patterns/testimonials.php:46
 msgid "Eliza Weber"
 msgstr ""
 
@@ -345,6 +346,7 @@ msgid "Director"
 msgstr ""
 
 #: patterns/team-members.php:58
+#: patterns/testimonials.php:76
 msgid "Danial Forbes"
 msgstr ""
 
@@ -353,6 +355,7 @@ msgid "Manager"
 msgstr ""
 
 #: patterns/team-members.php:74
+#: patterns/testimonials.php:106
 msgid "Maria Peterson"
 msgstr ""
 
@@ -377,8 +380,20 @@ msgstr ""
 msgid "A range of testimonials from our happy customers across a variety of industries and use cases."
 msgstr ""
 
+#: patterns/testimonials.php:50
+msgid "Life Coach"
+msgstr ""
+
 #: patterns/testimonials.php:56
 msgid "Simple, clean &amp; minimal Full Site Editing theme."
+msgstr ""
+
+#: patterns/testimonials.php:80
+msgid "Public Speaker"
+msgstr ""
+
+#: patterns/testimonials.php:110
+msgid "Corporate Lawyer"
 msgstr ""
 
 #: theme.json
