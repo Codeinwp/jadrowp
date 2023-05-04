@@ -114,8 +114,8 @@ ol,
 
 .is-style-checklist li::before {
   content: "";
-  mask: url("assets/images/checklist.svg");
-  -webkit-mask: url("assets/images/checklist.svg");
+  mask: url(assets/images/checklist.svg);
+  -webkit-mask: url(assets/images/checklist.svg);
   height: 1.5em;
   width: 1.5em;
   min-height: 1.5em;
@@ -132,8 +132,8 @@ ol,
 
 .is-style-checklist-circle li::before {
   content: "";
-  mask: url("assets/images/checklist-circle.svg");
-  -webkit-mask: url("assets/images/checklist-circle.svg");
+  mask: url(assets/images/checklist-circle.svg);
+  -webkit-mask: url(assets/images/checklist-circle.svg);
   height: 1em;
   width: 1em;
   min-height: 1em;

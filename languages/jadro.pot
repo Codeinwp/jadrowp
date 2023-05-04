@@ -250,6 +250,10 @@ msgstr ""
 msgid "Basic"
 msgstr ""
 
+#: patterns/pricing-table.php:23
+msgid "$49"
+msgstr ""
+
 #: patterns/pricing-table.php:27
 #: patterns/pricing-table.php:85
 #: patterns/pricing-table.php:143
@@ -272,6 +276,10 @@ msgstr ""
 msgid "Advanced"
 msgstr ""
 
+#: patterns/pricing-table.php:81
+msgid "$99"
+msgstr ""
+
 #: patterns/pricing-table.php:95
 msgid "Everything in Basic"
 msgstr ""
@@ -292,6 +300,10 @@ msgstr ""
 msgid "Premium"
 msgstr ""
 
+#: patterns/pricing-table.php:139
+msgid "$499"
+msgstr ""
+
 #: patterns/pricing-table.php:153
 msgid "Everything in Advanced"
 msgstr ""
@@ -308,21 +320,56 @@ msgstr ""
 msgid "Onpage SEO Included"
 msgstr ""
 
+#: patterns/team-members.php
+msgctxt "Pattern title"
+msgid "Team Members"
+msgstr ""
+
+#: patterns/team-members.php:17
+msgid "Experienced and Creative"
+msgstr ""
+
+#: patterns/team-members.php:21
+msgid "Team Members"
+msgstr ""
+
+#: patterns/team-members.php:27
+msgid "An experienced team working together, crafting exceptional experiences, and growing stronger."
+msgstr ""
+
+#: patterns/team-members.php:42
+#: patterns/testimonials.php:26
+msgid "Eliza Weber"
+msgstr ""
+
+#: patterns/team-members.php:46
+msgid "Director"
+msgstr ""
+
+#: patterns/team-members.php:58
+#: patterns/testimonials.php:56
+msgid "Danial Forbes"
+msgstr ""
+
+#: patterns/team-members.php:62
+msgid "Manager"
+msgstr ""
+
+#: patterns/team-members.php:74
+msgid "Maria Peterson"
+msgstr ""
+
+#: patterns/team-members.php:78
+msgid "Consultant"
+msgstr ""
+
 #: patterns/testimonials.php
 msgctxt "Pattern title"
 msgid "Testimonials"
 msgstr ""
 
-#: patterns/testimonials.php:26
-msgid "Eliza Weber"
-msgstr ""
-
 #: patterns/testimonials.php:30
 msgid "Life Coach"
-msgstr ""
-
-#: patterns/testimonials.php:56
-msgid "Danial Forbes"
 msgstr ""
 
 #: patterns/testimonials.php:60

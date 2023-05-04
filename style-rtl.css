@@ -89,7 +89,8 @@ nav.wp-block-query-pagination {
 
 /* List styles
 --------------------------------------------- */
-ul, ol,
+ul,
+ol,
 .is-style-default,
 .is-style-square {
   padding-right: 22px;
@@ -113,8 +114,8 @@ ul, ol,
 
 .is-style-checklist li::before {
   content: "";
-  mask: url("assets/images/checklist.svg");
-  -webkit-mask: url("assets/images/checklist.svg");
+  mask: url(assets/images/checklist.svg);
+  -webkit-mask: url(assets/images/checklist.svg);
   height: 1.5em;
   width: 1.5em;
   min-height: 1.5em;
@@ -131,8 +132,8 @@ ul, ol,
 
 .is-style-checklist-circle li::before {
   content: "";
-  mask: url("assets/images/checklist-circle.svg");
-  -webkit-mask: url("assets/images/checklist-circle.svg");
+  mask: url(assets/images/checklist-circle.svg);
+  -webkit-mask: url(assets/images/checklist-circle.svg);
   height: 1em;
   width: 1em;
   min-height: 1em;
@@ -159,7 +160,7 @@ hr.wp-block-separator.is-style-dotted {
   width: 100% !important;
   border-bottom: none !important;
   height: 1px !important;
-  background: repeating-linear-gradient(-90deg, currentColor, currentColor 2px, transparent 2px, transparent 6px) !important;
+  background: repeating-linear-gradient(-90deg, currentcolor, currentcolor 2px, transparent 2px, transparent 6px) !important;
 }
 hr.wp-block-separator.is-style-wide-thin-line {
   height: 1px !important;
@@ -195,7 +196,12 @@ hr.wp-block-separator.is-style-right-aligned {
   text-underline-offset: 3px;
   text-decoration-thickness: 1px;
 }
-.page .wp-block-post-content h1, .page .wp-block-post-content h2, .page .wp-block-post-content h3, .page .wp-block-post-content h4, .page .wp-block-post-content h5, .page .wp-block-post-content h6,
+.page .wp-block-post-content h1,
+.page .wp-block-post-content h2,
+.page .wp-block-post-content h3,
+.page .wp-block-post-content h4,
+.page .wp-block-post-content h5,
+.page .wp-block-post-content h6,
 .single-post .wp-block-post-content h1,
 .single-post .wp-block-post-content h2,
 .single-post .wp-block-post-content h3,
@@ -204,7 +210,12 @@ hr.wp-block-separator.is-style-right-aligned {
 .single-post .wp-block-post-content h6 {
   text-decoration-thickness: 2px !important;
 }
-.page .wp-block-post-content h1, .page .wp-block-post-content h2, .page .wp-block-post-content h3, .page .wp-block-post-content h4, .page .wp-block-post-content h5, .page .wp-block-post-content h6,
+.page .wp-block-post-content h1,
+.page .wp-block-post-content h2,
+.page .wp-block-post-content h3,
+.page .wp-block-post-content h4,
+.page .wp-block-post-content h5,
+.page .wp-block-post-content h6,
 .single-post .wp-block-post-content h1,
 .single-post .wp-block-post-content h2,
 .single-post .wp-block-post-content h3,
@@ -213,7 +224,12 @@ hr.wp-block-separator.is-style-right-aligned {
 .single-post .wp-block-post-content h6 {
   text-underline-offset: 5px;
 }
-.page .wp-block-post-content h1 a, .page .wp-block-post-content h2 a, .page .wp-block-post-content h3 a, .page .wp-block-post-content h4 a, .page .wp-block-post-content h5 a, .page .wp-block-post-content h6 a,
+.page .wp-block-post-content h1 a,
+.page .wp-block-post-content h2 a,
+.page .wp-block-post-content h3 a,
+.page .wp-block-post-content h4 a,
+.page .wp-block-post-content h5 a,
+.page .wp-block-post-content h6 a,
 .single-post .wp-block-post-content h1 a,
 .single-post .wp-block-post-content h2 a,
 .single-post .wp-block-post-content h3 a,
