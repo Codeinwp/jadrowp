@@ -8,19 +8,19 @@
     "php": ">=5.6"
   },
   "scripts": {
-    "pot": "./vendor/wp-cli/wp-cli/bin/wp i18n make-pot . languages/jadro.pot --exclude=vendor,deploy --headers='{\"POT-Creation-Date\":\"\"}'",
-    "pc:info": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs -i",
-    "pc:config": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --config-show",
-    "lint": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --report-full --report-summary .",
+    "pot": "./vendor/bin/wp i18n make-pot . languages/jadro.pot --exclude=deploy,vendor --headers='{\"POT-Creation-Date\":\"\"}'",
+    "pc:info": "@php ./vendor/bin/phpcs -i",
+    "pc:config": "@php ./vendor/bin/phpcs --config-show",
+    "lint": "@php ./vendor/bin/phpcs --report-full --report-summary .",
     "lint:error": "@lint -n",
-    "lint:fix": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf --report-full --report-summary .",
-    "compat": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs --standard=.phpcompat.xml.dist --report-full --report-summary ."
+    "lint:fix": "@php ./vendor/bin/phpcbf --report-full --report-summary .",
+    "compat": "@php ./vendor/bin/phpcs --standard=.phpcompat.xml.dist --report-full --report-summary ."
   },
   "require-dev": {
-    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.2",
+		"wp-cli/i18n-command": "^2.4",
+    "wp-coding-standards/wpcs": "dev-develop",
     "phpcompatibility/phpcompatibility-wp": "^2.1",
-    "wp-cli/i18n-command": "^2.4",
-    "wp-coding-standards/wpcs": "^2.3"
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0"
   },
   "config": {
     "allow-plugins": {
