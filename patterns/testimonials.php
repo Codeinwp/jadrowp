@@ -17,8 +17,8 @@
 <p class="has-text-align-left has-primary-color has-text-color has-medium-font-size"><?php esc_html_e( 'Customer Reviews', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"left","fontSize":"max-60"} -->
-<h2 class="wp-block-heading has-text-align-left has-max-60-font-size"><?php esc_html_e( 'Testimonials', 'jadro' ); ?></h2>
+<!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"max-60"} -->
+<h2 class="wp-block-heading has-text-align-left has-max-60-font-size" style="margin-top:0.25rem"><?php esc_html_e( 'Testimonials', 'jadro' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -103,7 +103,7 @@
 
 <!-- wp:column {"verticalAlignment":"center","width":"75%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Maria Peterson', 'jadro' ); ?></h2>
+<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Maria Crossin', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"small"} -->

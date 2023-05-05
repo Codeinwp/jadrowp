@@ -17,8 +17,8 @@
 <p class="has-text-align-left has-primary-color has-text-color has-medium-font-size"><?php esc_html_e( 'Experienced and Creative', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"left","fontSize":"max-60"} -->
-<h2 class="wp-block-heading has-text-align-left has-max-60-font-size"><?php esc_html_e( 'Team Members', 'jadro' ); ?></h2>
+<!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"max-60"} -->
+<h2 class="wp-block-heading has-text-align-left has-max-60-font-size" style="margin-top:0.25rem"><?php esc_html_e( 'Team Members', 'jadro' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -71,7 +71,7 @@
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Maria Peterson', 'jadro' ); ?></h2>
+<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Maria Crossin', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","fontSize":"small"} -->
