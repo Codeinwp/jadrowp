@@ -1,0 +1,261 @@
+{
+    "customTemplates": [
+        {
+            "name": "no-title-space",
+            "postTypes": [
+                "page"
+            ],
+            "title": "No Title and Space"
+        }
+    ],
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "custom": true,
+            "customGradient": true,
+            "palette": [
+                {
+                    "color": "#5b5a5a",
+                    "name": "Base",
+                    "slug": "base"
+                },
+                {
+                    "color": "#0000FF",
+                    "name": "Primary",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#f3f6fb",
+                    "name": "Light Gray",
+                    "slug": "light-gray"
+                },
+                {
+                    "color": "#2f2f2f",
+                    "name": "Darkish",
+                    "slug": "darkish"
+                }
+            ]
+        },
+        "layout": {
+            "contentSize": "760px",
+            "wideSize": "1200px"
+        },
+        "spacing": {
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw",
+                "%"
+            ]
+        },
+        "typography": {
+            "customFontSize": true,
+            "dropCap": false,
+            "fluid": true,
+            "fontFamilies": [
+                {
+                    "fontFace": [
+                        {
+                            "fontFamily": "Oxygen",
+                            "fontStyle": "normal",
+                            "fontWeight": "300",
+                            "src": [
+                                "file:./assets/fonts/oxygen_normal_300.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Oxygen",
+                            "fontStyle": "normal",
+                            "fontWeight": "400",
+                            "src": [
+                                "file:./assets/fonts/oxygen_normal_400.ttf"
+                            ]
+                        },
+                        {
+                            "fontFamily": "Oxygen",
+                            "fontStyle": "normal",
+                            "fontWeight": "700",
+                            "src": [
+                                "file:./assets/fonts/oxygen_normal_700.ttf"
+                            ]
+                        }
+                    ],
+                    "fontFamily": "Oxygen",
+                    "slug": "oxygen"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "fluid": {
+                        "max": "16px",
+                        "min": "13px"
+                    },
+                    "name": "xSmall",
+                    "size": "16px",
+                    "slug": "x-small"
+                },
+                {
+                    "fluid": {
+                        "max": "18px",
+                        "min": "14px"
+                    },
+                    "name": "Small",
+                    "size": "18px",
+                    "slug": "small"
+                },
+                {
+                    "fluid": {
+                        "max": "20px",
+                        "min": "16px"
+                    },
+                    "name": "Medium",
+                    "size": "20px",
+                    "slug": "medium"
+                },
+                {
+                    "fluid": {
+                        "max": "24px",
+                        "min": "20px"
+                    },
+                    "name": "Large",
+                    "size": "24px",
+                    "slug": "large"
+                },
+                {
+                    "fluid": {
+                        "max": "30px",
+                        "min": "24px"
+                    },
+                    "name": "xLarge",
+                    "size": "30px",
+                    "slug": "x-large"
+                },
+                {
+                    "fluid": {
+                        "max": "36px",
+                        "min": "30px"
+                    },
+                    "name": "36px",
+                    "size": "36px",
+                    "slug": "max-36"
+                },
+                {
+                    "fluid": {
+                        "max": "48px",
+                        "min": "36px"
+                    },
+                    "name": "48px",
+                    "size": "48px",
+                    "slug": "max-48"
+                },
+                {
+                    "fluid": {
+                        "max": "60px",
+                        "min": "42px"
+                    },
+                    "name": "60px",
+                    "size": "60px",
+                    "slug": "max-60"
+                },
+                {
+                    "fluid": {
+                        "max": "72px",
+                        "min": "48px"
+                    },
+                    "name": "72px",
+                    "size": "72px",
+                    "slug": "max-72"
+                },
+                {
+                    "fluid": {
+                        "max": "82px",
+                        "min": "52px"
+                    },
+                    "name": "82px",
+                    "size": "82px",
+                    "slug": "max-82"
+                }
+            ]
+        },
+        "useRootPaddingAwareAlignments": true
+    },
+    "styles": {
+        "blocks": {
+            "core/button": {
+                "border": {
+                    "radius": "5px"
+                },
+                "typography": {
+                    "lineHeight": "1"
+                },
+                "variations": {
+                    "outline": {
+                        "color": {
+                            "text": "#0000FF"
+                        }
+                    }
+                }
+            }
+        },
+        "color": {
+            "background": "var:preset|color|white",
+            "text": "#5b5a5a"
+        },
+        "elements": {
+            "button": {
+                "color": {
+                    "background": "#0000FF"
+                }
+            },
+            "heading": {
+                "color": {
+                    "text": "#000000"
+                },
+                "typography": {
+                    "fontFamily": "var:preset|font-family|oxygen",
+                    "fontStyle": "normal",
+                    "fontWeight": "500",
+                    "lineHeight": "1.4"
+                }
+            },
+            "link": {
+                "color": {
+                    "text": "#0000FF"
+                }
+            }
+        },
+        "spacing": {
+            "blockGap": "24px",
+            "padding": {
+                "bottom": "0px",
+                "left": "20px",
+                "right": "20px",
+                "top": "0px"
+            }
+        },
+        "typography": {
+            "fontFamily": "var:preset|font-family|oxygen",
+            "fontSize": "var:preset|font-size|medium",
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "lineHeight": 1.8
+        }
+    },
+    "templateParts": [
+        {
+            "area": "header",
+            "name": "header",
+            "title": "Header"
+        },
+        {
+            "area": "footer",
+            "name": "footer",
+            "title": "Footer"
+        }
+    ],
+    "version": 2,
+    "title": "Blue",
+    "$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+}
