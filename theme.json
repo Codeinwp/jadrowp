@@ -15,12 +15,12 @@
 			"customGradient": true,
 			"palette": [
 				{
-					"color": "#5b5a5a",
+					"color": "#062d48",
 					"name": "Base",
 					"slug": "base"
 				},
 				{
-					"color": "#e06035",
+					"color": "#9164ff",
 					"name": "Primary",
 					"slug": "primary"
 				},
@@ -56,34 +56,50 @@
 			"fluid": true,
 			"fontFamilies": [
 				{
+					"fontFamily": "Inter",
+					"slug": "inter",
 					"fontFace": [
 						{
-							"fontFamily": "Oxygen",
+							"fontFamily": "Inter",
 							"fontStyle": "normal",
 							"fontWeight": "300",
 							"src": [
-								"file:./assets/fonts/oxygen_normal_300.ttf"
+								"file:./assets/fonts/inter_normal_300.ttf"
 							]
 						},
 						{
-							"fontFamily": "Oxygen",
+							"fontFamily": "Inter",
 							"fontStyle": "normal",
 							"fontWeight": "400",
 							"src": [
-								"file:./assets/fonts/oxygen_normal_400.ttf"
+								"file:./assets/fonts/inter_normal_400.ttf"
 							]
 						},
 						{
-							"fontFamily": "Oxygen",
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/inter_normal_500.ttf"
+							]
+						},
+						{
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/inter_normal_600.ttf"
+							]
+						},
+						{
+							"fontFamily": "Inter",
 							"fontStyle": "normal",
 							"fontWeight": "700",
 							"src": [
-								"file:./assets/fonts/oxygen_normal_700.ttf"
+								"file:./assets/fonts/inter_normal_700.ttf"
 							]
 						}
-					],
-					"fontFamily": "Oxygen",
-					"slug": "oxygen"
+					]
 				}
 			],
 			"fontSizes": [
@@ -193,7 +209,7 @@
 				"variations": {
 					"outline": {
 						"color": {
-							"text": "#e06035"
+							"text": "#9164ff"
 						}
 					}
 				}
@@ -201,20 +217,20 @@
 		},
 		"color": {
 			"background": "var:preset|color|white",
-			"text": "#5b5a5a"
+			"text": "#062d48"
 		},
 		"elements": {
 			"button": {
 				"color": {
-					"background": "#e06035"
+					"background": "#9164ff"
 				}
 			},
 			"heading": {
 				"color": {
-					"text": "#000000"
+					"text": "#062d48"
 				},
 				"typography": {
-					"fontFamily": "var:preset|font-family|oxygen",
+					"fontFamily": "var:preset|font-family|inter",
 					"fontStyle": "normal",
 					"fontWeight": "500",
 					"lineHeight": "1.4"
@@ -222,7 +238,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "#e06035"
+					"text": "#9164ff"
 				}
 			}
 		},
@@ -236,7 +252,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|oxygen",
+			"fontFamily": "var:preset|font-family|inter",
 			"fontSize": "var:preset|font-size|medium",
 			"fontStyle": "normal",
 			"fontWeight": "400",

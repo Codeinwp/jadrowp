@@ -13,8 +13,8 @@
 <div class="wp-block-group alignfull has-background" style="background-color:#f3f6fb;margin-top:0px;margin-bottom:0px;padding-top:8rem;padding-bottom:8rem"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"bottom"} -->
 <div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"color":{"text":"#e06035"}},"className":"has-text-align-left","fontSize":"medium"} -->
-<p class="has-text-align-left has-text-color has-medium-font-size" style="color:#e06035;font-style:normal;font-weight:600"><?php esc_html_e( 'Experienced and Creative', 'jadro' ); ?></p>
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:paragraph {"align":"left","textColor":"primary","fontSize":"medium"} -->
+<p class="has-text-align-left has-primary-color has-text-color has-medium-font-size"><?php esc_html_e( 'Experienced and Creative', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"left","fontSize":"max-60"} -->
