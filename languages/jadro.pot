@@ -81,9 +81,9 @@ msgstr ""
 #: patterns/cta-default.php:30
 #: patterns/header-with-button.php:32
 #: patterns/hero-banner.php:31
-#: patterns/pricing-table.php:67
-#: patterns/pricing-table.php:125
-#: patterns/pricing-table.php:183
+#: patterns/pricing-table.php:87
+#: patterns/pricing-table.php:145
+#: patterns/pricing-table.php:203
 msgid "Get Started"
 msgstr ""
 
@@ -124,7 +124,7 @@ msgstr ""
 
 #: patterns/features.php:22
 #: patterns/hero-banner.php:18
-#: patterns/pricing-table.php:45
+#: patterns/pricing-table.php:65
 msgid "Full Site Editing"
 msgstr ""
 
@@ -237,8 +237,16 @@ msgctxt "Pattern title"
 msgid "Latest Articles"
 msgstr ""
 
-#: patterns/latest-articles.php:15
+#: patterns/latest-articles.php:17
+msgid "Stay Updated"
+msgstr ""
+
+#: patterns/latest-articles.php:21
 msgid "Latest Articles"
+msgstr ""
+
+#: patterns/latest-articles.php:27
+msgid "Quickly browse the latest offers, read in-depth articles, and case studies to get the full story."
 msgstr ""
 
 #: patterns/pricing-table.php
@@ -246,77 +254,89 @@ msgctxt "Pattern title"
 msgid "Pricing Table"
 msgstr ""
 
-#: patterns/pricing-table.php:18
-msgid "Basic"
+#: patterns/pricing-table.php:17
+msgid "Straightforward"
 msgstr ""
 
-#: patterns/pricing-table.php:23
-msgid "$49"
+#: patterns/pricing-table.php:21
+msgid "Pricing Plans"
 msgstr ""
 
 #: patterns/pricing-table.php:27
-#: patterns/pricing-table.php:85
-#: patterns/pricing-table.php:143
+msgid "We offer a range of plans to suit businesses of all sizes, from small startups to large corporations."
+msgstr ""
+
+#: patterns/pricing-table.php:38
+msgid "Basic"
+msgstr ""
+
+#: patterns/pricing-table.php:43
+msgid "$49"
+msgstr ""
+
+#: patterns/pricing-table.php:47
+#: patterns/pricing-table.php:105
+#: patterns/pricing-table.php:163
 msgid "/year"
 msgstr ""
 
-#: patterns/pricing-table.php:37
+#: patterns/pricing-table.php:57
 msgid "Responsive Layouts"
 msgstr ""
 
-#: patterns/pricing-table.php:53
+#: patterns/pricing-table.php:73
 msgid "Block Pattern Library"
 msgstr ""
 
-#: patterns/pricing-table.php:61
+#: patterns/pricing-table.php:81
 msgid "Support via Public Forum"
 msgstr ""
 
-#: patterns/pricing-table.php:76
+#: patterns/pricing-table.php:96
 msgid "Advanced"
 msgstr ""
 
-#: patterns/pricing-table.php:81
+#: patterns/pricing-table.php:101
 msgid "$99"
 msgstr ""
 
-#: patterns/pricing-table.php:95
+#: patterns/pricing-table.php:115
 msgid "Everything in Basic"
 msgstr ""
 
-#: patterns/pricing-table.php:103
+#: patterns/pricing-table.php:123
 msgid "One Click Demo Import"
 msgstr ""
 
-#: patterns/pricing-table.php:111
+#: patterns/pricing-table.php:131
 msgid "Additional Block Patterns"
 msgstr ""
 
-#: patterns/pricing-table.php:119
+#: patterns/pricing-table.php:139
 msgid "Support via Dedicated Email"
 msgstr ""
 
-#: patterns/pricing-table.php:134
+#: patterns/pricing-table.php:154
 msgid "Premium"
 msgstr ""
 
-#: patterns/pricing-table.php:139
+#: patterns/pricing-table.php:159
 msgid "$499"
 msgstr ""
 
-#: patterns/pricing-table.php:153
+#: patterns/pricing-table.php:173
 msgid "Everything in Advanced"
 msgstr ""
 
-#: patterns/pricing-table.php:161
+#: patterns/pricing-table.php:181
 msgid "Monthly Maintenance Service"
 msgstr ""
 
-#: patterns/pricing-table.php:169
+#: patterns/pricing-table.php:189
 msgid "Website Security Hardening"
 msgstr ""
 
-#: patterns/pricing-table.php:177
+#: patterns/pricing-table.php:197
 msgid "Onpage SEO Included"
 msgstr ""
 
@@ -357,7 +377,7 @@ msgstr ""
 
 #: patterns/team-members.php:74
 #: patterns/testimonials.php:106
-msgid "Maria Peterson"
+msgid "Maria Crossin"
 msgstr ""
 
 #: patterns/team-members.php:78

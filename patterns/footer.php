@@ -97,13 +97,14 @@
 
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|50","right":"var:preset|spacing|30","left":"var:preset|spacing|30","bottom":"var:preset|spacing|50"},"margin":{"top":"0px","bottom":"0px"}},"color":{"background":"#2f2f2f"},"border":{"top":{"color":"#ffffff21","width":"1px"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"textColor":"white","className":"site-footer","layout":{"inherit":true,"type":"constrained"}} -->
 <div class="wp-block-group alignfull site-footer has-white-color has-text-color has-background" style="border-top-color:#ffffff21;border-top-width:1px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;background-color:#2f2f2f;margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"align":"center"} -->
-<p class="has-text-align-center">
-<?php
+	<p class="has-text-align-center">
+		<?php
 		printf(
 			/* translators: %s: Copyright text. */
 			esc_html__( 'Copyright © %s. All Rights Reserved.', 'jadro' ),
 			esc_attr( date_i18n( 'Y' ) )
 		);
 		?>
+	</p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
