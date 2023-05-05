@@ -100,10 +100,10 @@
 <p class="has-text-align-center">
 <?php
 		printf(
-			/* Copyright text. */
+			/* translators: %s: Copyright text. */
 			esc_html__( 'Copyright © %s. All Rights Reserved.', 'jadro' ),
-            date_i18n('Y')
-        );
-		?>    
+			esc_attr( date_i18n( 'Y' ) )
+		);
+		?>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
