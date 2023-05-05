@@ -204,8 +204,9 @@ msgstr ""
 msgid "Terms & Conditions"
 msgstr ""
 
-#: patterns/footer.php:100
-msgid "Copyright © 2023. All Rights Reserved."
+#. translators: %s: Copyright text.
+#: patterns/footer.php:104
+msgid "Copyright © %s. All Rights Reserved."
 msgstr ""
 
 #: patterns/header-with-button.php
