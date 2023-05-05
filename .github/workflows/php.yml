@@ -1,0 +1,19 @@
+name: PHP check
+
+on: pull_request
+
+jobs:
+  phpcs:
+      name: PHP Check
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+
+        - name: Install composer
+          uses: php-actions/composer@v6
+
+        - name: Check compatibility
+          run: composer run-script compat
+
+        - name: Error checking
+          run: composer run-script lint:php
