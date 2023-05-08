@@ -11,8 +11,8 @@
 ?>
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"8rem","bottom":"8rem"},"margin":{"top":"0px","bottom":"0px"}}},"backgroundColor":"light-gray","layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull has-light-gray-background-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:8rem;padding-bottom:8rem"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","fontSize":"max-60"} -->
-<h2 class="wp-block-heading has-text-align-center has-max-60-font-size"><?php esc_html_e( 'Add Call to Action Heading Here', 'jadro' ); ?></h2>
+<div class="wp-block-group alignwide"><!-- wp:heading {"textAlign":"center","fontSize":"xx-large"} -->
+<h2 class="wp-block-heading has-text-align-center has-xx-large-font-size"><?php esc_html_e( 'Add Call to Action Heading Here', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:columns -->

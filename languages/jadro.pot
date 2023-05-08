@@ -368,7 +368,7 @@ msgstr ""
 
 #: patterns/team-members.php:58
 #: patterns/testimonials.php:76
-msgid "Danial Forbes"
+msgid "Danial Chen"
 msgstr ""
 
 #: patterns/team-members.php:62
@@ -377,7 +377,7 @@ msgstr ""
 
 #: patterns/team-members.php:74
 #: patterns/testimonials.php:106
-msgid "Maria Crossin"
+msgid "Dina Crossin"
 msgstr ""
 
 #: patterns/team-members.php:78
@@ -444,12 +444,17 @@ msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "xSmall"
+msgid "X Small"
 msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
 msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Base"
 msgstr ""
 
 #: theme.json
@@ -464,32 +469,22 @@ msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "xLarge"
+msgid "X Large"
 msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "36px"
+msgid "2X Large"
 msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "48px"
+msgid "3X Large"
 msgstr ""
 
 #: theme.json
 msgctxt "Font size name"
-msgid "60px"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "72px"
-msgstr ""
-
-#: theme.json
-msgctxt "Font size name"
-msgid "82px"
+msgid "4X Large"
 msgstr ""
 
 #: theme.json

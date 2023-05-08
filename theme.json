@@ -181,6 +181,11 @@
 						}
 					}
 				}
+			},
+			"core/site-title": {
+			  "typography": {
+			    "fontSize": "var:preset|font-size|x-large"
+			  }
 			}
 		},
 		"color": {

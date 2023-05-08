@@ -13,12 +13,12 @@
 <div class="wp-block-group alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:8rem;padding-right:20px;padding-bottom:8rem;padding-left:20px"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"bottom"} -->
 <div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:paragraph {"align":"left","textColor":"primary","fontSize":"medium"} -->
-<p class="has-text-align-left has-primary-color has-text-color has-medium-font-size"><?php esc_html_e( 'Customer Reviews', 'jadro' ); ?></p>
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:paragraph {"align":"left","textColor":"primary","fontSize":"base"} -->
+<p class="has-text-align-left has-primary-color has-text-color has-base-font-size"><?php esc_html_e( 'Customer Reviews', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"max-60"} -->
-<h2 class="wp-block-heading has-text-align-left has-max-60-font-size" style="margin-top:0.25rem"><?php esc_html_e( 'Testimonials', 'jadro' ); ?></h2>
+<!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"xx-large"} -->
+<h2 class="wp-block-heading has-text-align-left has-xx-large-font-size" style="margin-top:0.25rem"><?php esc_html_e( 'Testimonials', 'jadro' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -42,8 +42,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"75%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Eliza Weber', 'jadro' ); ?></h2>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Eliza Weber', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"small"} -->
@@ -72,8 +72,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"75%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Danial Forbes', 'jadro' ); ?></h2>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Danial Chen', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"small"} -->
@@ -102,8 +102,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"verticalAlignment":"center","width":"75%"} -->
-<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}}} -->
-<h2 class="wp-block-heading" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Maria Crossin', 'jadro' ); ?></h2>
+<div class="wp-block-column is-vertically-aligned-center" style="flex-basis:75%"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"large"} -->
+<h2 class="wp-block-heading has-large-font-size" style="margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px"><?php esc_html_e( 'Dina Crossin', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0px","right":"0px","bottom":"0px","left":"0px"}}},"fontSize":"small"} -->

@@ -18,8 +18,8 @@
 <figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/customization.svg' ) ); ?>" alt="" class="wp-image-184"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Full Site Editing', 'jadro' ); ?></h2>
+<!-- wp:heading {"textAlign":"center","fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-align-center has-large-font-size"><?php esc_html_e( 'Full Site Editing', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -34,8 +34,8 @@
 <figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/speed.svg' ) ); ?>" alt="" class="wp-image-227"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Speed Optimized', 'jadro' ); ?></h2>
+<!-- wp:heading {"textAlign":"center","fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-align-center has-large-font-size"><?php esc_html_e( 'Speed Optimized', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
@@ -50,8 +50,8 @@
 <figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/updates.svg' ) ); ?>" alt="" class="wp-image-228"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Regular Updates', 'jadro' ); ?></h2>
+<!-- wp:heading {"textAlign":"center","fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-align-center has-large-font-size"><?php esc_html_e( 'Regular Updates', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center"} -->
