@@ -1,4 +1,6 @@
 {
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+	"version": 2,
 	"customTemplates": [
 		{
 			"name": "no-title-space",
@@ -270,7 +272,5 @@
 			"name": "footer",
 			"title": "Footer"
 		}
-	],
-	"version": 2,
-	"$schema": "https://schemas.wp.org/wp/6.2/theme.json"
+	]
 }
