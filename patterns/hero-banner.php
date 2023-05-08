@@ -14,12 +14,12 @@
 <div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"center"} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:group {"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"align":"left","textColor":"primary","fontSize":"medium"} -->
-<p class="has-text-align-left has-primary-color has-text-color has-medium-font-size"><?php esc_html_e( 'Full Site Editing', 'jadro' ); ?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"align":"left","textColor":"primary","fontSize":"base"} -->
+<p class="has-text-align-left has-primary-color has-text-color has-base-font-size"><?php esc_html_e( 'Full Site Editing', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"left","fontSize":"max-60"} -->
-<h2 class="wp-block-heading has-text-align-left has-max-60-font-size"><?php esc_html_e( 'WordPress Block Theme', 'jadro' ); ?></h2>
+<!-- wp:heading {"textAlign":"left","fontSize":"xx-large"} -->
+<h2 class="wp-block-heading has-text-align-left has-xx-large-font-size"><?php esc_html_e( 'WordPress Block Theme', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"left"} -->

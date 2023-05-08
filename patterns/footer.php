@@ -14,8 +14,8 @@
 <div class="wp-block-columns alignwide" style="padding-bottom:var(--wp--preset--spacing--60)"><!-- wp:column {"width":"60%"} -->
 <div class="wp-block-column" style="flex-basis:60%"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"textColor":"white"} -->
-<h2 class="wp-block-heading has-white-color has-text-color"><?php esc_html_e( 'Company', 'jadro' ); ?></h2>
+<div class="wp-block-column"><!-- wp:heading {"textColor":"white","fontSize":"large"} -->
+<h2 class="wp-block-heading has-white-color has-text-color has-large-font-size"><?php esc_html_e( 'Company', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:list {"style":{"typography":{"textDecoration":"none"}},"className":"is-style-none"} -->
@@ -42,8 +42,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:heading {"textColor":"white"} -->
-<h2 class="wp-block-heading has-white-color has-text-color"><?php esc_html_e( 'Quick Links', 'jadro' ); ?></h2>
+<div class="wp-block-column"><!-- wp:heading {"textColor":"white","fontSize":"large"} -->
+<h2 class="wp-block-heading has-white-color has-text-color has-large-font-size"><?php esc_html_e( 'Quick Links', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:list {"className":"is-style-none"} -->
@@ -72,8 +72,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"40%"} -->
-<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"textColor":"white"} -->
-<h2 class="wp-block-heading has-white-color has-text-color"><?php esc_html_e( 'About', 'jadro' ); ?></h2>
+<div class="wp-block-column" style="flex-basis:40%"><!-- wp:heading {"textColor":"white","fontSize":"large"} -->
+<h2 class="wp-block-heading has-white-color has-text-color has-large-font-size"><?php esc_html_e( 'About', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->

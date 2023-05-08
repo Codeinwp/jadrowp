@@ -13,12 +13,12 @@
 <div class="wp-block-group alignfull has-background" style="background-color:#f3f6fb;margin-top:0px;margin-bottom:0px;padding-top:8rem;padding-bottom:8rem"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"bottom"} -->
 <div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"verticalAlignment":"bottom"} -->
-<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:paragraph {"align":"left","textColor":"primary","fontSize":"medium"} -->
-<p class="has-text-align-left has-primary-color has-text-color has-medium-font-size"><?php esc_html_e( 'Experienced and Creative', 'jadro' ); ?></p>
+<div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:paragraph {"align":"left","textColor":"primary","fontSize":"base"} -->
+<p class="has-text-align-left has-primary-color has-text-color has-base-font-size"><?php esc_html_e( 'Experienced and Creative', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"max-60"} -->
-<h2 class="wp-block-heading has-text-align-left has-max-60-font-size" style="margin-top:0.25rem"><?php esc_html_e( 'Team Members', 'jadro' ); ?></h2>
+<!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"xx-large"} -->
+<h2 class="wp-block-heading has-text-align-left has-xx-large-font-size" style="margin-top:0.25rem"><?php esc_html_e( 'Team Members', 'jadro' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
@@ -38,12 +38,12 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Eliza Weber', 'jadro' ); ?></h2>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-align-center has-large-font-size"><?php esc_html_e( 'Eliza Weber', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size"><?php esc_html_e( 'Director', 'jadro' ); ?></p>
+<!-- wp:paragraph {"align":"center","fontSize":"base"} -->
+<p class="has-text-align-center has-base-font-size"><?php esc_html_e( 'Director', 'jadro' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -54,12 +54,12 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Danial Forbes', 'jadro' ); ?></h2>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-align-center has-large-font-size"><?php esc_html_e( 'Danial Chen', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size"><?php esc_html_e( 'Manager', 'jadro' ); ?></p>
+<!-- wp:paragraph {"align":"center","fontSize":"base"} -->
+<p class="has-text-align-center has-base-font-size"><?php esc_html_e( 'Manager', 'jadro' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
@@ -70,12 +70,12 @@
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading {"textAlign":"center"} -->
-<h2 class="wp-block-heading has-text-align-center"><?php esc_html_e( 'Maria Crossin', 'jadro' ); ?></h2>
+<div class="wp-block-group"><!-- wp:heading {"textAlign":"center","fontSize":"large"} -->
+<h2 class="wp-block-heading has-text-align-center has-large-font-size"><?php esc_html_e( 'Dina Crossin', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","fontSize":"small"} -->
-<p class="has-text-align-center has-small-font-size"><?php esc_html_e( 'Consultant', 'jadro' ); ?></p>
+<!-- wp:paragraph {"align":"center","fontSize":"base"} -->
+<p class="has-text-align-center has-base-font-size"><?php esc_html_e( 'Consultant', 'jadro' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column --></div>
