@@ -41,7 +41,58 @@
 			"wideSize": "1200px"
 		},
 		"spacing": {
-			"units": ["px", "em", "rem", "vh", "vw", "%"]
+			"blockGap": true,
+			"margin": true,
+			"padding": true,
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			],
+			"customSpacingSize": true,
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{
+					"name": "2X Small",
+					"size": "8px",
+					"slug": "xx-small"
+				},
+				{
+					"name": "X Small",
+					"size": "clamp(0.75rem, 0.659rem + 0.45vw, 1rem)",
+					"slug": "x-small"
+				},
+				{
+					"name": "Small",
+					"size": "clamp(1.125rem, 0.989rem + 0.68vw, 1.5rem)",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "clamp(1.5rem, 1.318rem + 0.91vw, 2rem)",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "clamp(2.25rem, 1.977rem + 1.36vw, 3rem)",
+					"slug": "large"
+				},
+				{
+					"name": "X Large",
+					"size": "clamp(3rem, 2.636rem + 1.82vw, 4rem)",
+					"slug": "x-large"
+				},
+				{
+					"name": "2X Large",
+					"size": "clamp(4.5rem, 3.955rem + 2.73vw, 6rem)",
+					"slug": "xx-large"
+				}
+			]
 		},
 		"typography": {
 			"customFontSize": true,
