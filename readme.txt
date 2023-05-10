@@ -16,13 +16,20 @@ Jadro WordPress Theme, (C) 2023 Jadro WP
 Jadro is distributed under the terms of the GNU GPL.
 
 == Images [CCO License] ==
-Image for theme screenshot, Copyright Trevor Paterson
+
+Hero
 License: CC0 1.0 Universal (CC0 1.0)
-Source: https://stocksnap.io/photo/woman-portrait-ZEXCRGH1GV
+Source: https://pxhere.com/en/photo/1549711
+
+Testimonials and Team
+License: CC0 1.0 Universal (CC0 1.0)
+https://stocksnap.io/photo/woman-work-E5GUBD8MWN
+https://stocksnap.io/photo/business-man-IVZBYWKEFM
+https://stocksnap.io/photo/woman-working-HIOJW30YKD
 
 * Icons are self created and license under GPL.
 
 == Changelog ==
 
-= 1.0.0 - April 28, 2023 =
+= 1.0.0 - May 10, 2023 =
 * Initial release
