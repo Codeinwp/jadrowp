@@ -100,15 +100,15 @@
 			"fluid": true,
 			"fontFamilies": [
         {
-          "fontFamily": "Inter",
+          "fontFamily": "Inter, sans-serif",
           "name": "Inter",
           "slug": "inter",
           "fontFace": [
             {
+              "fontDisplay": "block",
               "fontFamily": "Inter",
               "fontStyle": "normal",
               "fontStretch": "normal",
-              "fontDisplay": "swap",
               "fontWeight": "100 900",
               "src": [
                 "file:./assets/fonts/inter.woff2"
