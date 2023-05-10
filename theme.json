@@ -79,17 +79,17 @@
 				},
 				{
 					"name": "Large",
-					"size": "clamp(2.25rem, 1.977rem + 1.36vw, 3rem)",
+					"size": "clamp(2.125rem, 1.807rem + 1.59vw, 3rem)",
 					"slug": "large"
 				},
 				{
 					"name": "X Large",
-					"size": "clamp(3rem, 2.636rem + 1.82vw, 4rem)",
+					"size": "clamp(2.625rem, 2.125rem + 2.5vw, 4rem)",
 					"slug": "x-large"
 				},
 				{
 					"name": "2X Large",
-					"size": "clamp(4.5rem, 3.955rem + 2.73vw, 6rem)",
+					"size": "clamp(3.688rem, 2.847rem + 4.2vw, 6rem)",
 					"slug": "xx-large"
 				}
 			]
@@ -99,117 +99,98 @@
 			"dropCap": false,
 			"fluid": true,
 			"fontFamilies": [
-				{
-					"fontFamily": "Inter",
-					"slug": "inter",
-					"fontFace": [
-						{
-							"fontFamily": "Inter",
-							"fontStyle": "normal",
-							"fontWeight": "300",
-							"src": ["file:./assets/fonts/inter_normal_300.ttf"]
-						},
-						{
-							"fontFamily": "Inter",
-							"fontStyle": "normal",
-							"fontWeight": "400",
-							"src": ["file:./assets/fonts/inter_normal_400.ttf"]
-						},
-						{
-							"fontFamily": "Inter",
-							"fontStyle": "normal",
-							"fontWeight": "500",
-							"src": ["file:./assets/fonts/inter_normal_500.ttf"]
-						},
-						{
-							"fontFamily": "Inter",
-							"fontStyle": "normal",
-							"fontWeight": "600",
-							"src": ["file:./assets/fonts/inter_normal_600.ttf"]
-						},
-						{
-							"fontFamily": "Inter",
-							"fontStyle": "normal",
-							"fontWeight": "700",
-							"src": ["file:./assets/fonts/inter_normal_700.ttf"]
-						}
-					]
-				}
-			],
+        {
+          "fontFamily": "Inter",
+          "name": "Inter",
+          "slug": "inter",
+          "fontFace": [
+            {
+              "fontFamily": "Inter",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "fontDisplay": "swap",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./assets/fonts/inter.woff2"
+              ]
+            }
+          ]
+        }
+      ],
 			"fontSizes": [
 				{
 					"fluid": false,
 					"name": "X Small",
-					"size": "0.69rem",
+					"size": "0.63rem",
 					"slug": "x-small"
 				},
 				{
 					"fluid": false,
 					"name": "Small",
-					"size": "0.89rem",
+					"size": "0.84rem",
 					"slug": "small"
 				},
 				{
 					"fluid": {
-						"max": "1.19rem",
-						"min": "1rem"
+						"min": "1rem",
+						"max": "1.13rem"
 					},
 					"name": "Base",
-					"size": "1rem",
+					"size": "1.13rem",
 					"slug": "base"
 				},
 				{
 					"fluid": {
-						"max": "1.58rem",
-						"min": "1.2rem"
+						"min": "1.2rem",
+						"max": "1.5rem"
 					},
 					"name": "Medium",
-					"size": "1.58rem",
+					"size": "1.5rem",
 					"slug": "medium"
 				},
 				{
 					"fluid": {
-						"max": "2.11rem",
-						"min": "1.44rem"
+						"min": "1.44rem",
+						"max": "2rem"
 					},
 					"name": "Large",
-					"size": "2.11rem",
+					"size": "2rem",
 					"slug": "large"
 				},
 				{
 					"fluid": {
-						"max": "2.81rem",
-						"min": "1.73rem"
+						"min": "1.73rem",
+						"max": "2.66rem"
 					},
 					"name": "X Large",
-					"size": "2.81rem",
+					"size": "2.66rem",
 					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"max": "3.75rem",
-						"min": "2.07rem"
+						"min": "2.07rem",
+						"max": "3.55rem"
 					},
 					"name": "2X Large",
-					"size": "3.75rem",
+					"size": "3.55rem",
 					"slug": "xx-large"
 				},
 				{
 					"fluid": {
-						"max": "5rem",
-						"min": "2.49rem"
+						"min": "2.49rem",
+						"max": "4.73rem"
 					},
 					"name": "3X Large",
-					"size": "5rem",
+					"size": "4.73rem",
 					"slug": "xxx-large"
 				},
 				{
 					"fluid": {
-						"max": "6.66rem",
-						"min": "2.99rem"
+						"min": "2.99rem",
+						"max": "6.31rem"
 					},
 					"name": "4X Large",
-					"size": "6.66rem",
+					"size": "6.31rem",
 					"slug": "xxxx-large"
 				}
 			]
