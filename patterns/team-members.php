@@ -34,7 +34,7 @@
 <div class="wp-block-group alignwide"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|medium","left":"var:preset|spacing|medium"}}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":305,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"10px"}}} -->
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/image-1.jpg' ) ); ?>" alt="" class="wp-image-305" style="border-radius:10px"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/headshot-1.jpg' ) ); ?>" alt="" class="wp-image-305" style="border-radius:10px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"constrained"}} -->
@@ -50,7 +50,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":302,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"10px"}}} -->
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/image-2.jpg' ) ); ?>" alt="" class="wp-image-302" style="border-radius:10px"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/headshot-2.jpg' ) ); ?>" alt="" class="wp-image-302" style="border-radius:10px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"constrained"}} -->
@@ -66,7 +66,7 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:image {"align":"center","id":303,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"10px"}}} -->
-<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/image-3.jpg' ) ); ?>" alt="" class="wp-image-303" style="border-radius:10px"/></figure>
+<figure class="wp-block-image aligncenter size-full has-custom-border"><img src="<?php echo esc_url( get_theme_file_uri( 'assets/images/headshot-3.jpg' ) ); ?>" alt="" class="wp-image-303" style="border-radius:10px"/></figure>
 <!-- /wp:image -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0.25rem"}},"layout":{"type":"constrained"}} -->
