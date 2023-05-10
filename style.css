@@ -180,11 +180,13 @@ hr.wp-block-separator.is-style-right-aligned {
   column-gap: 12px !important;
 }
 .wp-block-comment-template .wp-block-comment-content {
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+.wp-block-comment-template .wp-block-comment-content {
   background: #f3f6fb;
   padding: 15px 30px;
   border-radius: 10px;
-  margin-top: 20px !important;
-  margin-bottom: 10px !important;
 }
 
 /* Single page and post styles
@@ -206,8 +208,21 @@ hr.wp-block-separator.is-style-right-aligned {
 .single-post .wp-block-post-content h4,
 .single-post .wp-block-post-content h5,
 .single-post .wp-block-post-content h6 {
-  text-underline-offset: 5px;
   text-decoration-thickness: 2px !important;
+}
+.page .wp-block-post-content h1,
+.page .wp-block-post-content h2,
+.page .wp-block-post-content h3,
+.page .wp-block-post-content h4,
+.page .wp-block-post-content h5,
+.page .wp-block-post-content h6,
+.single-post .wp-block-post-content h1,
+.single-post .wp-block-post-content h2,
+.single-post .wp-block-post-content h3,
+.single-post .wp-block-post-content h4,
+.single-post .wp-block-post-content h5,
+.single-post .wp-block-post-content h6 {
+  text-underline-offset: 5px;
 }
 .page .wp-block-post-content h1 a,
 .page .wp-block-post-content h2 a,
