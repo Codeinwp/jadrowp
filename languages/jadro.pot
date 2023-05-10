@@ -122,30 +122,43 @@ msgctxt "Pattern title"
 msgid "Features"
 msgstr ""
 
-#: patterns/features.php:22
+#: patterns/features.php:17
+msgid "Our Features"
+msgstr ""
+
+#: patterns/features.php:21
+msgid "Features"
+msgstr ""
+
+#: patterns/features.php:27
+#: patterns/testimonials.php:27
+msgid "A range of testimonials from our happy customers across a variety of industries and use cases."
+msgstr ""
+
+#: patterns/features.php:42
 #: patterns/hero-banner.php:18
 #: patterns/pricing-table.php:65
 msgid "Full Site Editing"
 msgstr ""
 
-#: patterns/features.php:26
+#: patterns/features.php:46
 msgid "Simple, Clean &amp; minimal Full Site Editing theme."
 msgstr ""
 
-#: patterns/features.php:38
+#: patterns/features.php:58
 msgid "Speed Optimized"
 msgstr ""
 
-#: patterns/features.php:42
+#: patterns/features.php:62
 #: patterns/testimonials.php:86
 msgid "Lightning fast theme that loads in fractions of seconds."
 msgstr ""
 
-#: patterns/features.php:54
+#: patterns/features.php:74
 msgid "Regular Updates"
 msgstr ""
 
-#: patterns/features.php:58
+#: patterns/features.php:78
 #: patterns/testimonials.php:116
 msgid "Useful features, pattern library &amp; regular updates."
 msgstr ""
@@ -201,7 +214,7 @@ msgid "Privacy Policies"
 msgstr ""
 
 #: patterns/footer.php:67
-msgid "Terms & Conditions"
+msgid "Terms &amp; Conditions"
 msgstr ""
 
 #. translators: %s: Copyright text.
@@ -397,10 +410,6 @@ msgstr ""
 msgid "Testimonials"
 msgstr ""
 
-#: patterns/testimonials.php:27
-msgid "A range of testimonials from our happy customers across a variety of industries and use cases."
-msgstr ""
-
 #: patterns/testimonials.php:50
 msgid "Life Coach"
 msgstr ""
@@ -475,6 +484,11 @@ msgstr ""
 #: theme.json
 msgctxt "Space size name"
 msgid "2X Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
 msgstr ""
 
 #: theme.json
