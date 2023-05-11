@@ -123,33 +123,38 @@ msgid "Features"
 msgstr ""
 
 #: patterns/features.php:17
-msgid "Our Features"
-msgstr ""
-
-#: patterns/features.php:21
 msgid "Features"
 msgstr ""
 
-#: patterns/features.php:27
-#: patterns/testimonials.php:27
-msgid "A range of testimonials from our happy customers across a variety of industries and use cases."
+#: patterns/features.php:21
+msgid "Our Features"
 msgstr ""
 
-#: patterns/features.php:42
+#: patterns/features.php:27
+msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut."
+msgstr ""
+
+#: patterns/features.php:38
 #: patterns/hero-banner.php:18
 #: patterns/pricing-table.php:65
 msgid "Full Site Editing"
 msgstr ""
 
-#: patterns/features.php:46
+#: patterns/features.php:42
 msgid "Simple, Clean &amp; minimal Full Site Editing theme."
 msgstr ""
 
-#: patterns/features.php:58
+#: patterns/features.php:47
+#: patterns/features.php:65
+#: patterns/features.php:83
+msgid "Read More"
+msgstr ""
+
+#: patterns/features.php:56
 msgid "Speed Optimized"
 msgstr ""
 
-#: patterns/features.php:62
+#: patterns/features.php:60
 #: patterns/testimonials.php:86
 msgid "Lightning fast theme that loads in fractions of seconds."
 msgstr ""
@@ -408,6 +413,10 @@ msgstr ""
 
 #: patterns/testimonials.php:21
 msgid "Testimonials"
+msgstr ""
+
+#: patterns/testimonials.php:27
+msgid "A range of testimonials from our happy customers across a variety of industries and use cases."
 msgstr ""
 
 #: patterns/testimonials.php:50
