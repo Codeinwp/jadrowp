@@ -15,7 +15,7 @@
 			"customGradient": true,
 			"palette": [
 				{
-					"color": "#062d48",
+					"color": "#434343",
 					"name": "Base",
 					"slug": "base"
 				},
@@ -30,9 +30,14 @@
 					"slug": "light-gray"
 				},
 				{
-					"color": "#2f2f2f",
+					"color": "#313131",
 					"name": "Darkish",
 					"slug": "darkish"
+				},
+				{
+					"color": "#2f2f2f",
+					"name": "Soft Black",
+					"slug": "soft-black"
 				}
 			]
 		},
@@ -222,7 +227,7 @@
 		},
 		"color": {
 			"background": "var:preset|color|white",
-			"text": "#062d48"
+			"text": "var:preset|color|base"
 		},
 		"elements": {
 			"button": {
@@ -268,7 +273,7 @@
 			},
 			"heading": {
 				"color": {
-					"text": "#062d48"
+					"text": "var:preset|color|darkish"
 				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|inter",

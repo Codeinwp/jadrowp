@@ -452,6 +452,11 @@ msgid "Darkish"
 msgstr ""
 
 #: theme.json
+msgctxt "Color name"
+msgid "Soft Black"
+msgstr ""
+
+#: theme.json
 msgctxt "Space size name"
 msgid "2X Small"
 msgstr ""

@@ -9,8 +9,8 @@
  */
 
 ?>
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large"}},"color":{"background":"#2f2f2f"}},"textColor":"white","className":"site-footer","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group alignfull site-footer has-white-color has-text-color has-background" style="background-color:#2f2f2f;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:columns {"align":"wide","style":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"},"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large"}},"color":{"background":"soft-black"}},"textColor":"white","className":"site-footer","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group alignfull site-footer has-white-color has-soft-black-background-color has-text-color has-background" style="padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:columns {"align":"wide","style":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"},"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"60%"} -->
 <div class="wp-block-column" style="flex-basis:60%"><!-- wp:columns {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|x-large","left":"var:preset|spacing|x-large"}}}} -->
 <div class="wp-block-columns"><!-- wp:column -->
@@ -95,8 +95,8 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|30","left":"var:preset|spacing|30","bottom":"var:preset|spacing|small"},"margin":{"top":"0px","bottom":"0px"}},"color":{"background":"#2f2f2f"},"border":{"top":{"color":"#ffffff21","width":"1px"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"textColor":"white","className":"site-footer","layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group alignfull site-footer has-white-color has-text-color has-background" style="border-top-color:#ffffff21;border-top-width:1px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;background-color:#2f2f2f;margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"align":"center"} -->
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|30","left":"var:preset|spacing|30","bottom":"var:preset|spacing|small"},"margin":{"top":"0px","bottom":"0px"}},"color":{"background":"soft-black"},"border":{"top":{"color":"#ffffff21","width":"1px"},"right":{"width":"0px","style":"none"},"bottom":{"width":"0px","style":"none"},"left":{"width":"0px","style":"none"}}},"textColor":"white","className":"site-footer","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group alignfull site-footer has-white-color has-soft-black-background-color has-text-color has-background" style="border-top-color:#ffffff21;border-top-width:1px;border-right-style:none;border-right-width:0px;border-bottom-style:none;border-bottom-width:0px;border-left-style:none;border-left-width:0px;margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--30)"><!-- wp:paragraph {"align":"center"} -->
 <p class="has-text-align-center">
 	<?php
 		printf(
