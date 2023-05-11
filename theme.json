@@ -209,7 +209,7 @@
 				"variations": {
 					"outline": {
 						"color": {
-							"text": "#9164ff"
+							"text": "var:preset|color|primary"
 						}
 					}
 				}
@@ -227,7 +227,7 @@
 		"elements": {
 			"button": {
 				"color": {
-					"background": "#9164ff"
+					"background": "var:preset|color|primary"
 				}
 			},
 			"h1": {
@@ -278,7 +278,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "#9164ff"
+					"text": "var:preset|color|primary"
 				}
 			}
 		},
