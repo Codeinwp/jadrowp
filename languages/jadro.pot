@@ -123,15 +123,15 @@ msgid "Features"
 msgstr ""
 
 #: patterns/features.php:17
-msgid "Features"
+msgid "Innovative"
 msgstr ""
 
 #: patterns/features.php:21
-msgid "Our Features"
+msgid "Features"
 msgstr ""
 
 #: patterns/features.php:27
-msgid "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut."
+msgid "Create stunning websites effortlessly with a collection of inbuilt patterns and style variations."
 msgstr ""
 
 #: patterns/features.php:38
@@ -141,7 +141,8 @@ msgid "Full Site Editing"
 msgstr ""
 
 #: patterns/features.php:42
-msgid "Simple, Clean &amp; minimal Full Site Editing theme."
+#: patterns/testimonials.php:56
+msgid "Simple, clean &amp; minimal Full Site Editing theme."
 msgstr ""
 
 #: patterns/features.php:47
@@ -160,12 +161,11 @@ msgid "Lightning fast theme that loads in fractions of seconds."
 msgstr ""
 
 #: patterns/features.php:74
-msgid "Regular Updates"
+msgid "Color Variations"
 msgstr ""
 
 #: patterns/features.php:78
-#: patterns/testimonials.php:116
-msgid "Useful features, pattern library &amp; regular updates."
+msgid "Select the color of your choice from the variations available."
 msgstr ""
 
 #: patterns/footer.php
@@ -364,7 +364,7 @@ msgid "Team Members"
 msgstr ""
 
 #: patterns/team-members.php:17
-msgid "Experienced and Creative"
+msgid "Creative"
 msgstr ""
 
 #: patterns/team-members.php:21
@@ -423,16 +423,16 @@ msgstr ""
 msgid "Life Coach"
 msgstr ""
 
-#: patterns/testimonials.php:56
-msgid "Simple, clean &amp; minimal Full Site Editing theme."
-msgstr ""
-
 #: patterns/testimonials.php:80
 msgid "Public Speaker"
 msgstr ""
 
 #: patterns/testimonials.php:110
 msgid "Corporate Lawyer"
+msgstr ""
+
+#: patterns/testimonials.php:116
+msgid "Useful features, pattern library &amp; regular updates."
 msgstr ""
 
 #: styles/dodger-blue.json
