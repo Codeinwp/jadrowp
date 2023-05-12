@@ -436,27 +436,10 @@ msgid "Corporate Lawyer"
 msgstr ""
 
 #: styles/blue.json
-#: theme.json
-msgctxt "Color name"
-msgid "Base"
-msgstr ""
-
-#: styles/blue.json
+#: styles/hot-pink.json
 #: theme.json
 msgctxt "Color name"
 msgid "Primary"
-msgstr ""
-
-#: styles/blue.json
-#: theme.json
-msgctxt "Color name"
-msgid "Light Gray"
-msgstr ""
-
-#: styles/blue.json
-#: theme.json
-msgctxt "Color name"
-msgid "Darkish"
 msgstr ""
 
 #: styles/blue.json
@@ -468,6 +451,21 @@ msgstr ""
 #: theme.json
 msgctxt "Custom template name"
 msgid "No Title and Space"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Light Gray"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Darkish"
 msgstr ""
 
 #: theme.json
