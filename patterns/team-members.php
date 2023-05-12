@@ -14,7 +14,7 @@
 <div class="wp-block-group alignwide" style="padding-bottom:var(--wp--preset--spacing--medium)"><!-- wp:columns {"verticalAlignment":"bottom"} -->
 <div class="wp-block-columns are-vertically-aligned-bottom"><!-- wp:column {"verticalAlignment":"bottom"} -->
 <div class="wp-block-column is-vertically-aligned-bottom"><!-- wp:paragraph {"align":"left","textColor":"primary","fontSize":"base"} -->
-<p class="has-text-align-left has-primary-color has-text-color has-base-font-size"><?php esc_html_e( 'Experienced and Creative', 'jadro' ); ?></p>
+<p class="has-text-align-left has-primary-color has-text-color has-base-font-size"><?php esc_html_e( 'Creative', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"x-large"} -->
