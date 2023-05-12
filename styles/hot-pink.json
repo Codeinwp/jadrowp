@@ -1,13 +1,34 @@
 {
 	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
 	"version": 2,
+	"title": "Hot Pink",
 	"settings": {
 		"color": {
 			"palette": [
 				{
+					"color": "#434343",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
 					"color": "#ff6198",
 					"name": "Primary",
 					"slug": "primary"
+				},
+				{
+					"color": "#f3f6fb",
+					"name": "Light Gray",
+					"slug": "light-gray"
+				},
+				{
+					"color": "#313131",
+					"name": "Darkish",
+					"slug": "darkish"
+				},
+				{
+					"color": "#2f2f2f",
+					"name": "Soft Black",
+					"slug": "soft-black"
 				}
 			]
 		}
