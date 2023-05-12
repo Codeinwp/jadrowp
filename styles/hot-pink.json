@@ -1,0 +1,14 @@
+{
+	"version": 2,
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#ff6198",
+					"name": "Primary",
+					"slug": "primary"
+				}
+			]
+		}
+	}
+}
