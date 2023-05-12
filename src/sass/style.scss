@@ -98,13 +98,18 @@ nav.wp-block-query-pagination {
 /* List styles
 --------------------------------------------- */
 ul,
-ol,
-.is-style-default,
-.is-style-square {
+ul.is-style-default,
+ul.is-style-square {
 	padding-left: 22px;
 }
 
-.is-style-square {
+ol,
+ol.is-style-default,
+ol.is-style-square {
+	padding-left: 22px;
+}
+
+ul.is-style-square {
 	list-style-type: square;
 }
 
@@ -128,8 +133,8 @@ ol,
 	width: 1.5em;
 	min-height: 1.5em;
 	min-width: 1.5em;
-	margin-top: 5px;
 	background: currentcolor;
+	align-self: center;
 }
 
 .is-style-checklist-circle li {
@@ -146,8 +151,8 @@ ol,
 	width: 1em;
 	min-height: 1em;
 	min-width: 1em;
-	margin-top: 10px;
 	background: currentcolor;
+	align-self: center;
 }
 
 /* Button Block
