@@ -435,37 +435,54 @@ msgstr ""
 msgid "Corporate Lawyer"
 msgstr ""
 
-#: styles/blue.json
+#: styles/dodger-blue.json
+msgctxt "Style variation name"
+msgid "Dodger Blue"
+msgstr ""
+
+#: styles/dodger-blue.json
+#: styles/hot-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: theme.json
 msgctxt "Color name"
 msgid "Primary"
 msgstr ""
 
-#: styles/blue.json
-#: theme.json
-msgctxt "Color name"
-msgid "Soft Black"
-msgstr ""
-
-#: theme.json
-msgctxt "Custom template name"
-msgid "No Title and Space"
-msgstr ""
-
-#: theme.json
-msgctxt "Color name"
-msgid "Base"
-msgstr ""
-
+#: styles/dodger-blue.json
+#: styles/hot-pink.json
 #: theme.json
 msgctxt "Color name"
 msgid "Light Gray"
 msgstr ""
 
+#: styles/dodger-blue.json
+#: styles/hot-pink.json
 #: theme.json
 msgctxt "Color name"
 msgid "Darkish"
+msgstr ""
+
+#: styles/dodger-blue.json
+#: styles/hot-pink.json
+#: theme.json
+msgctxt "Color name"
+msgid "Soft Black"
+msgstr ""
+
+#: styles/hot-pink.json
+msgctxt "Style variation name"
+msgid "Hot Pink"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "No Title and Space"
 msgstr ""
 
 #: theme.json
