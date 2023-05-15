@@ -42,9 +42,7 @@
     "map": false
   },
   "devDependencies": {
-    "@babel/core": "^7.21.4",
-    "@babel/preset-env": "^7.21.4",
-    "@wordpress/scripts": "^26.3.0",
+    "@wordpress/scripts": "^26.4.0",
     "bestzip": "^2.2.1",
     "browser-sync": "^2.29.1",
     "copy-files-from-to": "^3.8.0",
@@ -52,7 +50,6 @@
     "dotenv": "^16.0.3",
     "easy-replace-in-files": "^1.0.3",
     "gulp": "^4.0.2",
-    "gulp-babel": "^8.0.0",
     "gulp-dart-sass": "^1.1.0",
     "gulp-environments": "^1.0.1",
     "gulp-postcss": "^9.0.1",

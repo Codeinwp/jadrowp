@@ -5,7 +5,6 @@ require( 'dotenv' ).config();
 const gulp = require( 'gulp' );
 const sass = require( 'gulp-dart-sass' );
 const browserSync = require( 'browser-sync' ).create();
-const babel = require( 'gulp-babel' );
 const sourcemaps = require( 'gulp-sourcemaps' );
 const environments = require( 'gulp-environments' );
 const postcss = require( 'gulp-postcss' );
@@ -22,16 +21,8 @@ gulp.task( 'sass', function() {
 			postcssPresetEnv(),
 		] ) )
 		.pipe( development( sourcemaps.write( '.' ) ) )
-		.pipe( gulp.dest( './' ) );
-} );
-
-// Script.
-gulp.task( 'script', function() {
-	return gulp.src( [ 'src/js/**/*.js' ] )
-		.pipe( babel( {
-			presets: [ '@babel/env' ],
-		} ) )
-		.pipe( gulp.dest( 'assets/js' ) );
+		.pipe( gulp.dest( './' ) )
+		.pipe( browserSync.stream() );
 } );
 
 // Copy Images.
@@ -52,11 +43,10 @@ gulp.task( 'watch', function() {
 		proxy: process.env.DEV_SERVER_URL,
 	} );
 
-	gulp.watch( 'src/sass/**/*.scss', gulp.series( 'sass' ) ).on( 'change', browserSync.reload );
-	gulp.watch( 'src/js/**/*.js', gulp.series( 'script' ) ).on( 'change', browserSync.reload );
+	gulp.watch( 'src/sass/**/*.scss', gulp.series( 'sass' ) );
 	gulp.watch( './**/*.php' ).on( 'change', browserSync.reload );
 } );
 
 // Tasks.
 gulp.task( 'default', gulp.series( 'watch' ) );
-gulp.task( 'build', gulp.series( 'script', 'sass', 'images', 'font' ) );
+gulp.task( 'build', gulp.series( 'sass', 'images', 'font' ) );
