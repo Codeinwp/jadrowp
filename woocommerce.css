@@ -1,0 +1,30 @@
+.woocommerce a.button, .woocommerce button.button {
+  line-height: 1;
+  border-radius: 5px;
+}
+.woocommerce span.onsale {
+  background-color: var(--wp--preset--color--primary);
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+  font-size: var(--wp--preset--font-size--medium);
+}
+
+.woocommerce ul.products li.product span.price {
+  color: var(--wp--preset--color--base);
+}
+
+.woocommerce .woocommerce-ordering .orderby {
+  padding: 12px 16px;
+  font-size: var(--wp--preset--font-size--small);
+  border-color: var(--wp--preset--color--platinum);
+  border-radius: 5px;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+          appearance: none;
+  background: transparent;
+  background-image: url(assets/images/icon-downarrow.png);
+  background-repeat: no-repeat;
+  background-position: top 50% right 1em;
+  background-size: 16px;
+}

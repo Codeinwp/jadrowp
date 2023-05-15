@@ -30,6 +30,11 @@
 					"slug": "light-gray"
 				},
 				{
+					"color": "#e7e7e7",
+					"name": "Platinum",
+					"slug": "platinum"
+				},
+				{
 					"color": "#313131",
 					"name": "Darkish",
 					"slug": "darkish"
