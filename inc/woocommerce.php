@@ -16,7 +16,7 @@ function jadro_woocommerce_setup() {
 	add_theme_support(
 		'woocommerce',
 		array(
-			'thumbnail_image_width'         => 370,
+			'thumbnail_image_width'         => 540,
 			'gallery_thumbnail_image_width' => 150,
 		)
 	);
