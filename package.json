@@ -21,7 +21,7 @@
     "lint:css:fix": "wp-scripts lint-style 'src/**/*.{css,scss}' --fix",
     "lint:js": "wp-scripts lint-js gulpfile.js",
     "lint:js:fix": "wp-scripts lint-js gulpfile.js --fix",
-    "rtl": "rtlcss style.css style-rtl.css && rtlcss editor-style.css editor-style-rtl.css",
+    "rtl": "rtlcss style.css style-rtl.css && rtlcss editor-style.css editor-style-rtl.css && rtlcss woocommerce.css woocommerce-rtl.css",
     "version": "easy-replace-in-files",
     "ready": "pnpm run version && pnpm run pot && shx rm -rf assets/ && pnpm run prod && pnpm run rtl",
     "predeploy": "pnpm run ready",

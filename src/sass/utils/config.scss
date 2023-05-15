@@ -1,0 +1,28 @@
+// Breakpoints
+$bp-desktop-small: 1120px;
+$bp-common: 781px;
+$bp-middle: 640px;
+$bp-phablet: 575px;
+$bp-mobile: 450px;
+
+//Mixins (Media Queries)
+@mixin respond-to($bp) {
+
+	@media only screen and (max-width: $bp) {
+		@content;
+	}
+}
+
+@mixin respond-above($bp) {
+
+	@media only screen and (min-width: $bp + 1) {
+		@content;
+	}
+}
+
+@mixin respond-between($bp1, $bp2) {
+
+	@media only screen and (min-width: $bp1 + 1) and (max-width: $bp2) {
+		@content;
+	}
+}

@@ -149,6 +149,11 @@ ul.is-style-square {
 
 /* Button Block
 --------------------------------------------- */
+.button {
+  line-height: 1;
+  border-radius: 5px;
+}
+
 .wp-block-button[style*=text-decoration] .wp-block-button__link {
   text-underline-offset: 5px;
 }

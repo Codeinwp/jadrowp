@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 define( 'JADRO_VERSION', '1.0.0' );
-
+define( 'JADRO_DIR', rtrim( get_template_directory(), '/' ) );
 /**
  * Theme setup.
  *
@@ -110,3 +110,8 @@ function jadro_register_block_styles() {
 }
 
 add_action( 'init', 'jadro_register_block_styles' );
+
+// WooCommerce customizations.
+if ( class_exists( 'WooCommerce', false ) ) {
+	require_once JADRO_DIR . '/inc/woocommerce.php';
+}
