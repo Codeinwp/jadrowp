@@ -465,6 +465,13 @@ msgstr ""
 #: styles/hot-pink.json
 #: theme.json
 msgctxt "Color name"
+msgid "Platinum"
+msgstr ""
+
+#: styles/dodger-blue.json
+#: styles/hot-pink.json
+#: theme.json
+msgctxt "Color name"
 msgid "Darkish"
 msgstr ""
 
@@ -483,11 +490,6 @@ msgstr ""
 #: theme.json
 msgctxt "Custom template name"
 msgid "No Title and Space"
-msgstr ""
-
-#: theme.json
-msgctxt "Color name"
-msgid "Platinum"
 msgstr ""
 
 #: theme.json
