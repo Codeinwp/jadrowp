@@ -11,7 +11,6 @@
 .woocommerce ul.products.columns-3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: var(--wp--preset--spacing--medium);
   gap: var(--wp--preset--spacing--medium);
   padding-top: var(--wp--preset--spacing--large);
 }
