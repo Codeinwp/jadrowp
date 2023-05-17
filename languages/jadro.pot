@@ -544,6 +544,16 @@ msgid "Inter"
 msgstr ""
 
 #: theme.json
+msgctxt "Font family name"
+msgid "Figtree"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Outfit"
+msgstr ""
+
+#: theme.json
 msgctxt "Font size name"
 msgid "X Small"
 msgstr ""

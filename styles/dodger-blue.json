@@ -37,5 +37,17 @@
 				}
 			]
 		}
+	},
+	"styles": {
+			"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|figtree"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|figtree"
+		}
 	}
 }

@@ -121,7 +121,41 @@
               "fontStretch": "normal",
               "fontWeight": "100 900",
               "src": [
-                "file:./assets/fonts/inter.woff2"
+                "file:./assets/fonts/Inter-Variable.woff2"
+              ]
+            }
+          ]
+        },
+        {
+          "fontFamily": "Figtree, sans-serif",
+          "name": "Figtree",
+          "slug": "figtree",
+          "fontFace": [
+            {
+              "fontDisplay": "block",
+              "fontFamily": "Figtree",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "fontWeight": "300 900",
+              "src": [
+                "file:./assets/fonts/Figtree-Variable.woff2"
+              ]
+            }
+          ]
+        },
+        {
+          "fontFamily": "Outfit, sans-serif",
+          "name": "Outfit",
+          "slug": "outfit",
+          "fontFace": [
+            {
+              "fontDisplay": "block",
+              "fontFamily": "Outfit",
+              "fontStyle": "normal",
+              "fontStretch": "normal",
+              "fontWeight": "100 900",
+              "src": [
+                "file:./assets/fonts/Outfit-Variable.woff2"
               ]
             }
           ]
