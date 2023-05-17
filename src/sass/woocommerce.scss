@@ -170,7 +170,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .woocommerce div.product form.cart .variations select {
 	padding: 12px 16px;
 	font-size: var(--wp--preset--font-size--base);
-	border-color: var(--wp--preset--color--platinum);
+	border: 2px solid var(--wp--preset--color--platinum);
 	border-radius: 5px;
 	box-sizing: border-box;
 	appearance: none;
