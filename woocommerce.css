@@ -52,7 +52,7 @@
 .woocommerce .woocommerce-ordering .orderby {
   padding: 12px 16px;
   font-size: var(--wp--preset--font-size--small);
-  border-color: var(--wp--preset--color--platinum);
+  border: 2px solid var(--wp--preset--color--platinum);
   border-radius: 5px;
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -123,6 +123,12 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
   color: var(--wp--preset--color--darkish);
   text-decoration: inherit;
   font-weight: 500;
+}
+
+.wc-block-mini-cart__empty-cart-wrapper .components-button {
+  line-height: 1;
+  border-radius: 5px;
+  min-height: auto;
 }
 
 /* Single product styles
