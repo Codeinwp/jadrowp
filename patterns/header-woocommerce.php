@@ -1,9 +1,9 @@
 <?php
 /**
- * Title: Header
- * Slug: jadro/header
+ * Title: Header WooCommerce
+ * Slug: jadro/header-woocommerce
  * Categories: jadro
- * Keywords: header
+ * Keywords: header, header woocommerce
  *
  * @package Jadro
  */
@@ -25,6 +25,12 @@
 <!-- wp:navigation-link {"label":"Blog","url":"#","kind":"custom","isTopLevelLink":true} /-->
 
 <!-- wp:navigation-link {"label":"Contact","url":"#","kind":"custom","isTopLevelLink":true} /-->
-<!-- /wp:navigation --></div>
+<!-- /wp:navigation -->
+
+<!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"right"}} -->
+<div class="wp-block-group"><!-- wp:woocommerce/customer-account {"displayStyle":"icon_only","iconClass":"wc-block-customer-account__account-icon"} /-->
+
+<!-- wp:woocommerce/mini-cart {"hasHiddenPrice":true,"cartAndCheckoutRenderStyle":"removed"} /--></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

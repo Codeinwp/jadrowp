@@ -232,6 +232,11 @@ msgctxt "Pattern title"
 msgid "Header with Button"
 msgstr ""
 
+#: patterns/header-woocommerce.php
+msgctxt "Pattern title"
+msgid "Header WooCommerce"
+msgstr ""
+
 #: patterns/header.php
 msgctxt "Pattern title"
 msgid "Header"
