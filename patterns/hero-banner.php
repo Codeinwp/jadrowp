@@ -18,7 +18,7 @@
 <p class="has-primary-color has-text-color has-base-font-size" style="margin-bottom:var(--wp--preset--spacing--xx-small)"><?php esc_html_e( 'Full Site Editing', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"left","fontSize":"xx-large"} -->
+<!-- wp:heading {"fontSize":"xx-large"} -->
 <h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'WordPress Block Theme', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 

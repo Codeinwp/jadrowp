@@ -17,7 +17,7 @@
 <p class="has-primary-color has-text-color has-base-font-size"><?php esc_html_e( 'Customer Reviews', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"x-large"} -->
+<!-- wp:heading {"style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"x-large"} -->
 <h2 class="wp-block-heading has-x-large-font-size" style="margin-top:0.25rem"><?php esc_html_e( 'Testimonials', 'jadro' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
