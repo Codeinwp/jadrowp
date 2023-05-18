@@ -445,6 +445,14 @@ msgstr ""
 #: styles/kelly-green.json
 #: theme.json
 msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: styles/dodger-blue.json
+#: styles/hot-pink.json
+#: styles/kelly-green.json
+#: theme.json
+msgctxt "Color name"
 msgid "Base"
 msgstr ""
 
@@ -461,7 +469,7 @@ msgstr ""
 #: styles/kelly-green.json
 #: theme.json
 msgctxt "Color name"
-msgid "Silver"
+msgid "Secondary"
 msgstr ""
 
 #: styles/dodger-blue.json
@@ -469,7 +477,7 @@ msgstr ""
 #: styles/kelly-green.json
 #: theme.json
 msgctxt "Color name"
-msgid "Light Gray"
+msgid "Tertiary"
 msgstr ""
 
 #: styles/dodger-blue.json
@@ -477,7 +485,7 @@ msgstr ""
 #: styles/kelly-green.json
 #: theme.json
 msgctxt "Color name"
-msgid "Platinum"
+msgid "Quaternary"
 msgstr ""
 
 #: styles/dodger-blue.json
@@ -485,7 +493,7 @@ msgstr ""
 #: styles/kelly-green.json
 #: theme.json
 msgctxt "Color name"
-msgid "Darkish"
+msgid "Quinary"
 msgstr ""
 
 #: styles/dodger-blue.json
@@ -493,7 +501,31 @@ msgstr ""
 #: styles/kelly-green.json
 #: theme.json
 msgctxt "Color name"
-msgid "Soft Black"
+msgid "Senary"
+msgstr ""
+
+#: styles/dodger-blue.json
+#: styles/hot-pink.json
+#: styles/kelly-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Transparent"
+msgstr ""
+
+#: styles/dodger-blue.json
+#: styles/hot-pink.json
+#: styles/kelly-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Current Color"
+msgstr ""
+
+#: styles/dodger-blue.json
+#: styles/hot-pink.json
+#: styles/kelly-green.json
+#: theme.json
+msgctxt "Color name"
+msgid "Inherit"
 msgstr ""
 
 #: styles/hot-pink.json

@@ -6,6 +6,11 @@
 		"color": {
 			"palette": [
 				{
+					"color": "#ffffff",
+					"slug": "background",
+					"name": "Background"
+				},
+				{
 					"color": "#434343",
 					"name": "Base",
 					"slug": "base"
@@ -16,29 +21,44 @@
 					"slug": "primary"
 				},
 				{
-					"color": "#cccccc",
-					"name": "Silver",
-					"slug": "silver"
+					"color": "#313131",
+					"name": "Secondary",
+					"slug": "secondary"
 				},
 				{
 					"color": "#f3f6fb",
-					"name": "Light Gray",
-					"slug": "light-gray"
+					"name": "Tertiary",
+					"slug": "tertiary"
 				},
 				{
 					"color": "#e7e7e7",
-					"name": "Platinum",
-					"slug": "platinum"
+					"name": "Quaternary",
+					"slug": "quaternary"
 				},
 				{
-					"color": "#313131",
-					"name": "Darkish",
-					"slug": "darkish"
+					"color": "#cccccc",
+					"name": "Quinary",
+					"slug": "quinary"
 				},
 				{
 					"color": "#2f2f2f",
-					"name": "Soft Black",
-					"slug": "soft-black"
+					"name": "Senary",
+					"slug": "senary"
+				},
+				{
+				  "color": "transparent",
+				  "name": "Transparent",
+				  "slug": "transparent"
+				},
+				{
+				  "color": "currentColor",
+				  "name": "Current Color",
+				  "slug": "current-color"
+				},
+				{
+				  "color": "inherit",
+				  "name": "Inherit",
+				  "slug": "inherit"
 				}
 			]
 		}
