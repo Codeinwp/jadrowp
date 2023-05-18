@@ -14,16 +14,16 @@
 <div class="wp-block-group alignwide"><!-- wp:columns {"verticalAlignment":"center","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|xx-large","left":"var:preset|spacing|xx-large"}}}} -->
 <div class="wp-block-columns are-vertically-aligned-center"><!-- wp:column {"verticalAlignment":"center","width":"60%"} -->
 <div class="wp-block-column is-vertically-aligned-center" style="flex-basis:60%"><!-- wp:group {"style":{"spacing":{"blockGap":"0px"}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:paragraph {"align":"left","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|xx-small"}}},"textColor":"primary","fontSize":"base"} -->
-<p class="has-text-align-left has-primary-color has-text-color has-base-font-size" style="margin-bottom:var(--wp--preset--spacing--xx-small)"><?php esc_html_e( 'Full Site Editing', 'jadro' ); ?></p>
+<div class="wp-block-group"><!-- wp:paragraph {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|xx-small"}}},"textColor":"primary","fontSize":"base"} -->
+<p class="has-primary-color has-text-color has-base-font-size" style="margin-bottom:var(--wp--preset--spacing--xx-small)"><?php esc_html_e( 'Full Site Editing', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"left","fontSize":"xx-large"} -->
-<h2 class="wp-block-heading has-text-align-left has-xx-large-font-size"><?php esc_html_e( 'WordPress Block Theme', 'jadro' ); ?></h2>
+<!-- wp:heading {"fontSize":"xx-large"} -->
+<h2 class="wp-block-heading has-xx-large-font-size"><?php esc_html_e( 'WordPress Block Theme', 'jadro' ); ?></h2>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"left","style":{"spacing":{"margin":{"top":"var:preset|spacing|small"}}}} -->
-<p class="has-text-align-left" style="margin-top:var(--wp--preset--spacing--small)"><?php esc_html_e( 'Simple, Clean, and Lightning Fast Full Site Editing Theme. Google Core Web Vitals and Search Engines optimized WordPress block theme.', 'jadro' ); ?></p>
+<!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"var:preset|spacing|small"}}}} -->
+<p style="margin-top:var(--wp--preset--spacing--small)"><?php esc_html_e( 'Simple, Clean, and Lightning Fast Full Site Editing Theme. Google Core Web Vitals and Search Engines optimized WordPress block theme.', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons {"layout":{"type":"flex","justifyContent":"left"},"style":{"spacing":{"margin":{"top":"var:preset|spacing|medium"}}}} -->
