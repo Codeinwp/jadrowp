@@ -55,7 +55,7 @@
 .woocommerce .woocommerce-ordering .orderby {
   padding: 12px 16px;
   font-size: var(--wp--preset--font-size--small);
-  border: 2px solid var(--wp--preset--color--platinum);
+  border: 2px solid var(--wp--preset--color--quaternary);
   border-radius: 5px;
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -69,10 +69,10 @@
 
 .woocommerce ul.products li.product .button {
   color: var(--wp--preset--color--base);
-  background-color: var(--wp--preset--color--light-gray);
+  background-color: var(--wp--preset--color--tertiary);
 }
 .woocommerce ul.products li.product .button:hover {
-  color: var(--wp--preset--color--white);
+  color: var(--wp--preset--color--background);
   background-color: var(--wp--preset--color--primary);
   transition: 0.4s ease-in-out;
 }
@@ -88,7 +88,7 @@
 .woocommerce nav.woocommerce-pagination ul li {
   border: none;
   color: var(--wp--preset--color--base);
-  background-color: var(--wp--preset--color--light-gray);
+  background-color: var(--wp--preset--color--tertiary);
   margin-right: var(--wp--preset--spacing--xx-small);
   border-radius: 5px;
 }
@@ -97,7 +97,7 @@
 }
 .woocommerce nav.woocommerce-pagination ul li a:hover,
 .woocommerce nav.woocommerce-pagination ul li span.current {
-  color: var(--wp--preset--color--white);
+  color: var(--wp--preset--color--background);
   background-color: var(--wp--preset--color--primary);
   transition: 0.4s ease-in-out;
 }
@@ -123,7 +123,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantit
 .editor-styles-wrapper table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name,
 table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product-name {
   font-size: var(--wp--preset--font-size--base);
-  color: var(--wp--preset--color--darkish);
+  color: var(--wp--preset--color--secondary);
   text-decoration: inherit;
   font-weight: 500;
 }
@@ -149,7 +149,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .woocommerce div.product form.cart .variations select {
   padding: 12px 16px;
   font-size: var(--wp--preset--font-size--base);
-  border: 2px solid var(--wp--preset--color--platinum);
+  border: 2px solid var(--wp--preset--color--quaternary);
   border-radius: 5px;
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -205,13 +205,13 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 }
 
 .woocommerce div.product form.cart div.quantity .qty {
-  border: 1px solid var(--wp--preset--color--platinum);
+  border: 1px solid var(--wp--preset--color--quaternary);
   border-radius: 5px;
   width: 6.45em;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
-  background-color: var(--wp--preset--color--light-gray);
+  background-color: var(--wp--preset--color--tertiary);
 }
 
 .woocommerce div.product .related.products > h2 {
@@ -239,7 +239,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 /* Cart and checkout page styles
 --------------------------------------------- */
 .woocommerce .quantity .qty {
-  border: 1px solid var(--wp--preset--color--platinum);
+  border: 1px solid var(--wp--preset--color--quaternary);
   border-radius: 5px;
   width: 6.45em;
 }
@@ -364,7 +364,7 @@ form.woocommerce-checkout #order_review {
 form.woocommerce-checkout #order_review table.shop_table {
   width: 100%;
   border-collapse: separate;
-  background: var(--wp--preset--color--light-gray);
+  background: var(--wp--preset--color--tertiary);
   border: none;
   border-radius: 0;
   margin: 0;
@@ -394,7 +394,7 @@ form.woocommerce-checkout #order_review table.shop_table td.product-quantity {
 }
 form.woocommerce-checkout #order_review table.shop_table tr {
   border: none;
-  border-bottom: 1px solid var(--wp--preset--color--platinum);
+  border-bottom: 1px solid var(--wp--preset--color--quaternary);
   display: flex;
   justify-content: space-between;
 }

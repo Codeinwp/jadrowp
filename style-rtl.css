@@ -46,7 +46,7 @@ input[type=submit] {
   border: none;
   border-radius: 5px;
   background: var(--wp--preset--color--primary);
-  color: var(--wp--preset--color--white);
+  color: var(--wp--preset--color--background);
   line-height: 1;
   padding: calc(0.667em + 2px) calc(1.333em + 2px);
   -webkit-text-decoration: none;
@@ -68,7 +68,7 @@ input[type=reset]:focus,
 input[type=submit]:active,
 input[type=submit]:focus {
   background: var(--wp--preset--color--primary);
-  color: var(--wp--preset--color--white);
+  color: var(--wp--preset--color--background);
 }
 
 input[type=text],
@@ -92,7 +92,7 @@ textarea {
   font-size: var(--wp--preset--font-size--base);
   color: var(--wp--preset--color--base);
   border: none;
-  border: 1px solid var(--wp--preset--color--silver);
+  border: 1px solid var(--wp--preset--color--quinary);
   border-radius: 5px;
   padding: 0.5em;
   width: 100%;
@@ -115,7 +115,7 @@ input[type=datetime-local]:focus,
 input[type=color]:focus,
 select:focus,
 textarea:focus {
-  outline: 1px solid var(--wp--preset--color--soft-black);
+  outline: 1px solid var(--wp--preset--color--secondary);
 }
 
 select {
@@ -130,7 +130,7 @@ select {
 }
 
 .select2-container--default .select2-selection--single {
-  border: 1px solid var(--wp--preset--color--silver);
+  border: 1px solid var(--wp--preset--color--quinary);
   border-radius: 5px;
 }
 
