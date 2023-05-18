@@ -57,7 +57,7 @@
 				{
 				  "color": "currentColor",
 				  "name": "Current Color",
-				  "slug": "currentColor"
+				  "slug": "current-color"
 				},
 				{
 				  "color": "inherit",
