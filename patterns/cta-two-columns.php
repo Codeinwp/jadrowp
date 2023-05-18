@@ -13,12 +13,12 @@
 <div class="wp-block-group alignfull has-light-gray-background-color has-background" style="margin-top:0px;margin-bottom:0px;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:paragraph {"align":"left","textColor":"primary","fontSize":"base"} -->
-<p class="has-text-align-left has-primary-color has-text-color has-base-font-size"><?php esc_html_e( 'Call to Action', 'jadro' ); ?></p>
+<div class="wp-block-column"><!-- wp:paragraph {"textColor":"primary","fontSize":"base"} -->
+<p class="has-primary-color has-text-color has-base-font-size"><?php esc_html_e( 'Call to Action', 'jadro' ); ?></p>
 <!-- /wp:paragraph -->
 
-<!-- wp:heading {"textAlign":"left","style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-left has-x-large-font-size" style="margin-top:0.25rem"><?php esc_html_e( 'Add Your Heading Here', 'jadro' ); ?></h2>
+<!-- wp:heading {"style":{"spacing":{"margin":{"top":"0.25rem"}}},"fontSize":"x-large"} -->
+<h2 class="wp-block-heading has-x-large-font-size" style="margin-top:0.25rem"><?php esc_html_e( 'Add Your Heading Here', 'jadro' ); ?></h2>
 <!-- /wp:heading --></div>
 <!-- /wp:column -->
 
