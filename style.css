@@ -13,11 +13,129 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: jadro
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, rtl-language-support, theme-options, threaded-comments, translation-ready, blog, e-commerce, wide-blocks
 */
+/* Box sizing
+--------------------------------------------- */
+/* Inherit box-sizing to more easily change it's value on a component level.
+@link http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Forms
+--------------------------------------------- */
+.button,
+.button:visited,
+button,
+.wp-block-search__button,
+input[type=button],
+input[type=reset],
+input[type=submit] {
+  font-family: inherit;
+  font-size: var(--wp--preset--font-size--base);
+  border: none;
+  border-radius: 5px;
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--white);
+  line-height: 1;
+  padding: calc(0.667em + 2px) calc(1.333em + 2px);
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+}
+
+.button:active,
+.button:focus,
+button:active,
+button:focus,
+.wp-block-search__button:active,
+.wp-block-search__button:focus,
+input[type=button]:active,
+input[type=button]:focus,
+input[type=reset]:active,
+input[type=reset]:focus,
+input[type=submit]:active,
+input[type=submit]:focus {
+  background: var(--wp--preset--color--primary);
+  color: var(--wp--preset--color--white);
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+input[type=search],
+input[type=number],
+input[type=tel],
+input[type=range],
+input[type=date],
+input[type=month],
+input[type=week],
+input[type=time],
+input[type=datetime],
+input[type=datetime-local],
+input[type=color],
+select,
+textarea {
+  font-family: inherit;
+  font-size: var(--wp--preset--font-size--base);
+  color: var(--wp--preset--color--base);
+  border: none;
+  border: 1px solid var(--wp--preset--color--silver);
+  border-radius: 5px;
+  padding: 0.5em;
+  width: 100%;
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=url]:focus,
+input[type=password]:focus,
+input[type=search]:focus,
+input[type=number]:focus,
+input[type=tel]:focus,
+input[type=range]:focus,
+input[type=date]:focus,
+input[type=month]:focus,
+input[type=week]:focus,
+input[type=time]:focus,
+input[type=datetime]:focus,
+input[type=datetime-local]:focus,
+input[type=color]:focus,
+select:focus,
+textarea:focus {
+  outline: 1px solid var(--wp--preset--color--soft-black);
+}
+
+select {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+          appearance: none;
+  background: transparent;
+  background-image: url(assets/images/icon-downarrow.png);
+  background-repeat: no-repeat;
+  background-position: top 50% right 1em;
+  background-size: 16px;
+}
+
+.select2-container--default .select2-selection--single {
+  border: 1px solid var(--wp--preset--color--silver);
+  border-radius: 5px;
+}
+
+/* List
+--------------------------------------------- */
 ul li a,
 ol li a,
 .wp-block-site-title a,
