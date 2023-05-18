@@ -53,6 +53,9 @@
 
 	span.onsale {
 		background-color: var(--wp--preset--color--primary);
+		min-height: 3.75em;
+		min-width: 3.75em;
+		line-height: 3.25;
 	}
 }
 
@@ -182,7 +185,8 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 	margin-right: 0;
 	margin-bottom: var(--wp--preset--spacing--xx-small);
 	cursor: pointer;
-	min-width: 210px;
+	min-width: 240px;
+	width: auto;
 }
 
 .summary {
@@ -247,6 +251,7 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .woocommerce div.product form.cart div.quantity .qty {
 	border: 1px solid var(--wp--preset--color--platinum);
 	border-radius: 5px;
+	width: 6.45em;
 }
 
 .woocommerce div.product .woocommerce-tabs ul.tabs li {
@@ -284,10 +289,15 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 .woocommerce .quantity .qty {
 	border: 1px solid var(--wp--preset--color--platinum);
 	border-radius: 5px;
+	width: 6.45em;
 }
 
 .woocommerce-page .woocommerce-cart-form #coupon_code {
 	border-radius: 5px;
+}
+
+.woocommerce-page .woocommerce-cart-form .actions button.button {
+	height: 48px;
 }
 
 .woocommerce-account .wp-block-post-title,

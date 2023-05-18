@@ -25,6 +25,11 @@
 					"slug": "primary"
 				},
 				{
+					"color": "#cccccc",
+					"name": "Silver",
+					"slug": "silver"
+				},
+				{
 					"color": "#f3f6fb",
 					"name": "Light Gray",
 					"slug": "light-gray"
