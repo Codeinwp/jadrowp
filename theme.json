@@ -50,6 +50,11 @@
 					"slug": "quinary"
 				},
 				{
+					"color": "#2f2f2f",
+					"name": "Senary",
+					"slug": "senary"
+				},
+				{
 				  "color": "transparent",
 				  "name": "Transparent",
 				  "slug": "transparent"

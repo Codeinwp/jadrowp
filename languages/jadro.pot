@@ -501,6 +501,14 @@ msgstr ""
 #: styles/kelly-green.json
 #: theme.json
 msgctxt "Color name"
+msgid "Senary"
+msgstr ""
+
+#: styles/dodger-blue.json
+#: styles/hot-pink.json
+#: styles/kelly-green.json
+#: theme.json
+msgctxt "Color name"
 msgid "Transparent"
 msgstr ""
 
