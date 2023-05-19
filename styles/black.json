@@ -1,0 +1,78 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+	"version": 2,
+	"title": "Black",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#191919",
+					"slug": "background",
+					"name": "Background"
+				},
+				{
+					"color": "#dcdcdc",
+					"name": "Base",
+					"slug": "base"
+				},
+				{
+					"color": "#308d93",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#efefef",
+					"name": "Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "#232323",
+					"name": "Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#424540",
+					"name": "Quaternary",
+					"slug": "quaternary"
+				},
+				{
+					"color": "#cccccc",
+					"name": "Quinary",
+					"slug": "quinary"
+				},
+				{
+					"color": "#272727",
+					"name": "Senary",
+					"slug": "senary"
+				},
+				{
+				  "color": "transparent",
+				  "name": "Transparent",
+				  "slug": "transparent"
+				},
+				{
+				  "color": "currentColor",
+				  "name": "Current Color",
+				  "slug": "current-color"
+				},
+				{
+				  "color": "inherit",
+				  "name": "Inherit",
+				  "slug": "inherit"
+				}
+			]
+		}
+	},
+	"styles": {
+			"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var:preset|font-family|outfit"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var:preset|font-family|outfit"
+		}
+	}
+}
