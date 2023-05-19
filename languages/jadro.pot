@@ -435,11 +435,12 @@ msgstr ""
 msgid "Useful features, pattern library &amp; regular updates."
 msgstr ""
 
-#: styles/dodger-blue.json
+#: styles/black.json
 msgctxt "Style variation name"
-msgid "Dodger Blue"
+msgid "Black"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -448,6 +449,7 @@ msgctxt "Color name"
 msgid "Background"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -456,6 +458,7 @@ msgctxt "Color name"
 msgid "Base"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -464,6 +467,7 @@ msgctxt "Color name"
 msgid "Primary"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -472,6 +476,7 @@ msgctxt "Color name"
 msgid "Secondary"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -480,6 +485,7 @@ msgctxt "Color name"
 msgid "Tertiary"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -488,6 +494,7 @@ msgctxt "Color name"
 msgid "Quaternary"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -496,6 +503,7 @@ msgctxt "Color name"
 msgid "Quinary"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -504,6 +512,7 @@ msgctxt "Color name"
 msgid "Senary"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -512,6 +521,7 @@ msgctxt "Color name"
 msgid "Transparent"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -520,12 +530,18 @@ msgctxt "Color name"
 msgid "Current Color"
 msgstr ""
 
+#: styles/black.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
 msgctxt "Color name"
 msgid "Inherit"
+msgstr ""
+
+#: styles/dodger-blue.json
+msgctxt "Style variation name"
+msgid "Dodger Blue"
 msgstr ""
 
 #: styles/hot-pink.json
