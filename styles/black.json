@@ -46,25 +46,25 @@
 					"slug": "senary"
 				},
 				{
-				  "color": "transparent",
-				  "name": "Transparent",
-				  "slug": "transparent"
+					"color": "transparent",
+					"name": "Transparent",
+					"slug": "transparent"
 				},
 				{
-				  "color": "currentColor",
-				  "name": "Current Color",
-				  "slug": "current-color"
+					"color": "currentColor",
+					"name": "Current Color",
+					"slug": "current-color"
 				},
 				{
-				  "color": "inherit",
-				  "name": "Inherit",
-				  "slug": "inherit"
+					"color": "inherit",
+					"name": "Inherit",
+					"slug": "inherit"
 				}
 			]
 		}
 	},
 	"styles": {
-			"elements": {
+		"elements": {
 			"heading": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|outfit"
