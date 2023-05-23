@@ -4,7 +4,7 @@
 	"customTemplates": [
 		{
 			"name": "no-title-space",
-			"postTypes": ["page"],
+			"postTypes": [ "page" ],
 			"title": "No Title and Space"
 		}
 	],
@@ -55,19 +55,19 @@
 					"slug": "senary"
 				},
 				{
-				  "color": "transparent",
-				  "name": "Transparent",
-				  "slug": "transparent"
+					"color": "transparent",
+					"name": "Transparent",
+					"slug": "transparent"
 				},
 				{
-				  "color": "currentColor",
-				  "name": "Current Color",
-				  "slug": "current-color"
+					"color": "currentColor",
+					"name": "Current Color",
+					"slug": "current-color"
 				},
 				{
-				  "color": "inherit",
-				  "name": "Inherit",
-				  "slug": "inherit"
+					"color": "inherit",
+					"name": "Inherit",
+					"slug": "inherit"
 				}
 			]
 		},
@@ -79,14 +79,7 @@
 			"blockGap": true,
 			"margin": true,
 			"padding": true,
-			"units": [
-				"px",
-				"em",
-				"rem",
-				"vh",
-				"vw",
-				"%"
-			],
+			"units": [ "px", "em", "rem", "vh", "vw", "%" ],
 			"customSpacingSize": true,
 			"spacingScale": {
 				"steps": 0
@@ -134,58 +127,58 @@
 			"dropCap": false,
 			"fluid": true,
 			"fontFamilies": [
-        {
-          "fontFamily": "Inter, sans-serif",
-          "name": "Inter",
-          "slug": "inter",
-          "fontFace": [
-            {
-              "fontDisplay": "block",
-              "fontFamily": "Inter",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "fontWeight": "100 900",
-              "src": [
-                "file:./assets/fonts/Inter-Variable.woff2"
-              ]
-            }
-          ]
-        },
-        {
-          "fontFamily": "Figtree, sans-serif",
-          "name": "Figtree",
-          "slug": "figtree",
-          "fontFace": [
-            {
-              "fontDisplay": "block",
-              "fontFamily": "Figtree",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "fontWeight": "300 900",
-              "src": [
-                "file:./assets/fonts/Figtree-Variable.woff2"
-              ]
-            }
-          ]
-        },
-        {
-          "fontFamily": "Outfit, sans-serif",
-          "name": "Outfit",
-          "slug": "outfit",
-          "fontFace": [
-            {
-              "fontDisplay": "block",
-              "fontFamily": "Outfit",
-              "fontStyle": "normal",
-              "fontStretch": "normal",
-              "fontWeight": "100 900",
-              "src": [
-                "file:./assets/fonts/Outfit-Variable.woff2"
-              ]
-            }
-          ]
-        }
-      ],
+				{
+					"fontFamily": "Inter, sans-serif",
+					"name": "Inter",
+					"slug": "inter",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Inter",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/Inter-Variable.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Figtree, sans-serif",
+					"name": "Figtree",
+					"slug": "figtree",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Figtree",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontWeight": "300 900",
+							"src": [
+								"file:./assets/fonts/Figtree-Variable.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Outfit, sans-serif",
+					"name": "Outfit",
+					"slug": "outfit",
+					"fontFace": [
+						{
+							"fontDisplay": "block",
+							"fontFamily": "Outfit",
+							"fontStyle": "normal",
+							"fontStretch": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/Outfit-Variable.woff2"
+							]
+						}
+					]
+				}
+			],
 			"fontSizes": [
 				{
 					"fluid": false,
@@ -284,9 +277,9 @@
 				}
 			},
 			"core/site-title": {
-			  "typography": {
-			    "fontSize": "var:preset|font-size|x-large"
-			  }
+				"typography": {
+					"fontSize": "var:preset|font-size|x-large"
+				}
 			}
 		},
 		"color": {
