@@ -441,6 +441,7 @@ msgid "Black"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -450,6 +451,7 @@ msgid "Background"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -459,6 +461,7 @@ msgid "Base"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -468,6 +471,7 @@ msgid "Primary"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -477,6 +481,7 @@ msgid "Secondary"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -486,6 +491,7 @@ msgid "Tertiary"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -495,6 +501,7 @@ msgid "Quaternary"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -504,6 +511,7 @@ msgid "Quinary"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -513,6 +521,7 @@ msgid "Senary"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -522,6 +531,7 @@ msgid "Transparent"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
@@ -531,12 +541,18 @@ msgid "Current Color"
 msgstr ""
 
 #: styles/black.json
+#: styles/coral.json
 #: styles/dodger-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
 msgctxt "Color name"
 msgid "Inherit"
+msgstr ""
+
+#: styles/coral.json
+msgctxt "Style variation name"
+msgid "Coral"
 msgstr ""
 
 #: styles/dodger-blue.json
