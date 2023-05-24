@@ -26,7 +26,7 @@
     "version": "easy-replace-in-files",
     "ready": "pnpm run version && pnpm run pot && shx rm -rf assets/ && pnpm run prod && pnpm run rtl",
     "predeploy": "pnpm run ready",
-    "deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
+    "deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to --silent && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
   },
   "browserslist": "> 1%, not dead",
   "rtlcssConfig": {
@@ -45,8 +45,8 @@
   "devDependencies": {
     "@wordpress/scripts": "^26.4.0",
     "bestzip": "^2.2.1",
-    "browser-sync": "^2.29.1",
-    "copy-files-from-to": "^3.8.0",
+    "browser-sync": "^2.29.3",
+    "copy-files-from-to": "^3.9.0",
     "cross-var": "^1.1.0",
     "dotenv": "^16.0.3",
     "easy-replace-in-files": "^1.0.3",
@@ -57,7 +57,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "husky": "^8.0.3",
     "postcss": "^8.4.23",
-    "postcss-preset-env": "^8.3.2",
+    "postcss-preset-env": "^8.4.1",
     "rtlcss": "^4.1.0",
     "shx": "^0.3.4"
   }
