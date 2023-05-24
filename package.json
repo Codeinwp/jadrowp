@@ -1,64 +1,70 @@
 {
-  "name": "jadro",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "GPL-2.0-or-later",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jadrowp/jadro/"
-  },
-  "homepage": "https://github.com/jadrowp/jadro/",
-  "scripts": {
-    "dev": "pnpm run build && gulp",
-    "build": "gulp build",
-    "prod": "gulp build --env production",
-    "preinstall": "npx only-allow pnpm",
-    "pot": "composer run-script pot",
-    "prepare": "husky install",
-    "lint:css": "wp-scripts lint-style 'src/**/*.{css,scss}'",
-    "lint:css:fix": "wp-scripts lint-style 'src/**/*.{css,scss}' --fix",
-    "lint:js": "wp-scripts lint-js gulpfile.js",
-    "lint:js:fix": "wp-scripts lint-js gulpfile.js --fix",
-    "lint:json": "wp-scripts format theme.json ./styles",
-    "rtl": "rtlcss style.css style-rtl.css && rtlcss editor-style.css editor-style-rtl.css && rtlcss woocommerce.css woocommerce-rtl.css",
-    "version": "easy-replace-in-files",
-    "ready": "pnpm run version && pnpm run pot && shx rm -rf assets/ && pnpm run prod && pnpm run rtl",
-    "predeploy": "pnpm run ready",
-    "deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to --silent && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
-  },
-  "browserslist": "> 1%, not dead",
-  "rtlcssConfig": {
-    "options": {
-      "autoRename": false,
-      "autoRenameStrict": false,
-      "blacklist": {},
-      "clean": true,
-      "greedy": false,
-      "processUrls": false,
-      "stringMap": []
-    },
-    "plugins": [],
-    "map": false
-  },
-  "devDependencies": {
-    "@wordpress/scripts": "^26.4.0",
-    "bestzip": "^2.2.1",
-    "browser-sync": "^2.29.3",
-    "copy-files-from-to": "^3.9.0",
-    "cross-var": "^1.1.0",
-    "dotenv": "^16.0.3",
-    "easy-replace-in-files": "^1.0.3",
-    "gulp": "^4.0.2",
-    "gulp-dart-sass": "^1.1.0",
-    "gulp-environments": "^1.0.1",
-    "gulp-postcss": "^9.0.1",
-    "gulp-sourcemaps": "^3.0.0",
-    "husky": "^8.0.3",
-    "postcss": "^8.4.23",
-    "postcss-preset-env": "^8.4.1",
-    "rtlcss": "^4.1.0",
-    "shx": "^0.3.4"
-  }
+	"name": "jadro",
+	"version": "1.0.0",
+	"description": "",
+	"author": "",
+	"license": "GPL-2.0-or-later",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jadrowp/jadro/"
+	},
+	"homepage": "https://github.com/jadrowp/jadro/",
+	"keywords": [
+		"wordpress",
+		"theme"
+	],
+	"scripts": {
+		"dev": "pnpm run build && gulp",
+		"build": "gulp build",
+		"prod": "gulp build --env production",
+		"preinstall": "npx only-allow pnpm",
+		"pot": "composer run-script pot",
+		"prepare": "husky install",
+		"lint:css": "wp-scripts lint-style 'src/**/*.{css,scss}'",
+		"lint:css:fix": "wp-scripts lint-style 'src/**/*.{css,scss}' --fix",
+		"lint:js": "wp-scripts lint-js gulpfile.js",
+		"lint:js:fix": "wp-scripts lint-js gulpfile.js --fix",
+		"lint:json": "wp-scripts format theme.json package.json ./styles",
+		"prerelease": "pnpm run deploy",
+		"release": "dotenv release-it -- --no-git --no-npm --no-increment",
+		"rtl": "rtlcss style.css style-rtl.css && rtlcss editor-style.css editor-style-rtl.css && rtlcss woocommerce.css woocommerce-rtl.css",
+		"version": "easy-replace-in-files",
+		"ready": "pnpm run version && pnpm run pot && shx rm -rf assets/ && pnpm run prod && pnpm run rtl",
+		"predeploy": "pnpm run ready",
+		"deploy": "shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to --silent && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
+	},
+	"browserslist": "> 1%, not dead",
+	"rtlcssConfig": {
+		"options": {
+			"autoRename": false,
+			"autoRenameStrict": false,
+			"blacklist": {},
+			"clean": true,
+			"greedy": false,
+			"processUrls": false,
+			"stringMap": []
+		},
+		"plugins": [],
+		"map": false
+	},
+	"devDependencies": {
+		"@wordpress/scripts": "^26.4.0",
+		"bestzip": "^2.2.1",
+		"browser-sync": "^2.29.3",
+		"copy-files-from-to": "^3.9.0",
+		"cross-var": "^1.1.0",
+		"dotenv-cli": "^7.2.1",
+		"easy-replace-in-files": "^1.0.3",
+		"gulp": "^4.0.2",
+		"gulp-dart-sass": "^1.1.0",
+		"gulp-environments": "^1.0.1",
+		"gulp-postcss": "^9.0.1",
+		"gulp-sourcemaps": "^3.0.0",
+		"husky": "^8.0.3",
+		"postcss": "^8.4.23",
+		"postcss-preset-env": "^8.4.1",
+		"release-it": "^15.10.3",
+		"rtlcss": "^4.1.0",
+		"shx": "^0.3.4"
+	}
 }

@@ -1,0 +1,12 @@
+{
+  "github": {
+    "release": true,
+		"draft": false,
+		"changelog": false,
+    "releaseName": "${version}",
+		"assets": ["deploy/*.zip"]
+  },
+	"hooks": {
+		"after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+	}
+}
