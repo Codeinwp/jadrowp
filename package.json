@@ -22,6 +22,7 @@
     "lint:js": "wp-scripts lint-js gulpfile.js",
     "lint:js:fix": "wp-scripts lint-js gulpfile.js --fix",
     "lint:json": "wp-scripts format theme.json ./styles",
+		"release": "dotenv release-it -- --no-git --no-npm --no-increment --no-changelog",
     "rtl": "rtlcss style.css style-rtl.css && rtlcss editor-style.css editor-style-rtl.css && rtlcss woocommerce.css woocommerce-rtl.css",
     "version": "easy-replace-in-files",
     "ready": "pnpm run version && pnpm run pot && shx rm -rf assets/ && pnpm run prod && pnpm run rtl",
@@ -48,7 +49,7 @@
     "browser-sync": "^2.29.3",
     "copy-files-from-to": "^3.9.0",
     "cross-var": "^1.1.0",
-    "dotenv": "^16.0.3",
+    "dotenv-cli": "^7.2.1",
     "easy-replace-in-files": "^1.0.3",
     "gulp": "^4.0.2",
     "gulp-dart-sass": "^1.1.0",
@@ -58,6 +59,7 @@
     "husky": "^8.0.3",
     "postcss": "^8.4.23",
     "postcss-preset-env": "^8.4.1",
+    "release-it": "^15.10.3",
     "rtlcss": "^4.1.0",
     "shx": "^0.3.4"
   }
