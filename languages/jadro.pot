@@ -20,7 +20,6 @@ msgid "Jadro"
 msgstr ""
 
 #. Theme URI of the theme
-#. Author URI of the theme
 msgid "https://jadrowp.com/"
 msgstr ""
 
