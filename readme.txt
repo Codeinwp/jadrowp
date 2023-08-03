@@ -29,7 +29,16 @@ https://stocksnap.io/photo/woman-working-HIOJW30YKD
 
 * Icons are self created and license under GPL.
 
+Google Fonts
+License: SIL Open Font License, 1.1
+License URL: https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
 == Changelog ==
+
+= 1.0.1 - August 03, 2023 =
+* Skip link added
+* Google Fonts license added
+* Screenshot updated
 
 = 1.0.0 - May 10, 2023 =
 * Initial release
