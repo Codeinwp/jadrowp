@@ -2,7 +2,7 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Jadro 1.0.2\n"
+"Project-Id-Version: Jadro 1.0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/jadro\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -444,7 +444,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -454,7 +457,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -464,7 +470,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -474,7 +483,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -484,7 +496,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -494,7 +509,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -504,7 +522,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -514,7 +535,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -524,7 +548,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -534,7 +561,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -544,7 +574,10 @@ msgstr ""
 
 #: styles/black.json
 #: styles/coral.json
+#: styles/deep-turqoise.json
 #: styles/dodger-blue.json
+#: styles/earthly-green.json
+#: styles/faded-blue.json
 #: styles/hot-pink.json
 #: styles/kelly-green.json
 #: theme.json
@@ -557,9 +590,24 @@ msgctxt "Style variation name"
 msgid "Coral"
 msgstr ""
 
+#: styles/deep-turqoise.json
+msgctxt "Style variation name"
+msgid "Deep Turqoise"
+msgstr ""
+
 #: styles/dodger-blue.json
 msgctxt "Style variation name"
 msgid "Dodger Blue"
+msgstr ""
+
+#: styles/earthly-green.json
+msgctxt "Style variation name"
+msgid "Earthly Green"
+msgstr ""
+
+#: styles/faded-blue.json
+msgctxt "Style variation name"
+msgid "Faded Blue"
 msgstr ""
 
 #: styles/hot-pink.json
