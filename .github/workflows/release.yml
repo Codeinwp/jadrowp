@@ -1,0 +1,32 @@
+name: Tag Release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    if: "! contains(github.event.head_commit.message, '[skip ci]')"
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+
+      - name: Install pnpm
+        run: npm install -g pnpm
+
+      - name: Install dependencies, build and tag.
+        run: |
+          pnpm install
+          composer install --prefer-dist --no-progress --no-suggest --ignore-platform-reqs
+          pnpm run deploy
+          pnpm run release
+        env:
+          GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}

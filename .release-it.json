@@ -1,12 +1,29 @@
 {
-  "github": {
-    "release": true,
+	"github": {
+		"release": true,
 		"draft": false,
 		"changelog": false,
-    "releaseName": "${version}",
+		"releaseName": "${version}",
 		"assets": ["deploy/*.zip"]
-  },
+	},
+	"git": {
+		"requireCleanWorkingDir": false,
+		"tagName": "v${version}",
+		"commitMessage": "Release v${version}",
+		"pushRepo": "origin",
+		"push": true
+	},
+	"npm": {
+		"publish": false
+	},
 	"hooks": {
 		"after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
+	},
+	"plugins": {
+		"version": {
+			"src": "package.json",
+			"type": "json",
+			"path": "version"
+		}
 	}
 }
