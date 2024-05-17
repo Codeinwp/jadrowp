@@ -34,5 +34,6 @@ jobs:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USER }}
           BUILD_DIR: 'deploy/jadro'
+          SLUG: 'jadro'
 
 
