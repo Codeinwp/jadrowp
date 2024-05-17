@@ -29,7 +29,7 @@
 		"version": "easy-replace-in-files",
 		"ready": "pnpm run version && pnpm run pot && shx rm -rf assets/ && pnpm run prod && pnpm run rtl",
 		"predeploy": "pnpm run ready",
-		"deploy": "pnpm run predeploy && shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to --silent && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
+		"deploy": " shx rm -rf deploy/ && shx mkdir deploy && copy-files-from-to --silent && shx cp theme.json ./deploy/temp/ && cd deploy/ && cross-var shx mv temp $npm_package_name && cross-var bestzip ../$npm_package_name.zip * && cd .. && cross-var shx mv $npm_package_name.zip deploy/"
 	},
 	"browserslist": "> 1%, not dead",
 	"rtlcssConfig": {
