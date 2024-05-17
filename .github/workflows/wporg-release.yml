@@ -1,6 +1,7 @@
 name: Deploy to WordPress.org
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "*"
@@ -27,12 +28,18 @@ jobs:
           composer install --prefer-dist --no-progress --no-suggest --ignore-platform-reqs
           pnpm run deploy
 
+      - name: Get version from package.json
+        id: get_version
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+
       - name: WordPress Theme Deploy
         uses: Codeinwp/action-wordpress-theme-deploy@v1.0
         env:
           SVN_PASSWORD: ${{ secrets.SVN_PASSWORD }}
           SVN_USERNAME: ${{ secrets.SVN_USER }}
+          VERSION: ${{ env.VERSION }}
           BUILD_DIR: 'deploy/jadro'
           SLUG: 'jadro'
-
 
