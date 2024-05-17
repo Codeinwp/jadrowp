@@ -1,8 +1,8 @@
-# Copyright (C) 2023 Jadro WP
+# Copyright (C) 2024 Jadro WP
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Jadro 1.0.1\n"
+"Project-Id-Version: Jadro 1.0.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/jadro\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,12 +15,15 @@ msgstr ""
 "X-Domain: jadro\n"
 
 #. Theme Name of the theme
+#. translators: %s: CMS name, i.e. WordPress.
 #: functions.php:71
+#: patterns/footer.php:104
 msgid "Jadro"
 msgstr ""
 
 #. Theme URI of the theme
-msgid "https://jadrowp.com/"
+#: patterns/footer.php:101
+msgid "https://wpshout.com/jadro/"
 msgstr ""
 
 #. Description of the theme
@@ -221,9 +224,9 @@ msgstr ""
 msgid "Terms &amp; Conditions"
 msgstr ""
 
-#. translators: %s: Copyright text.
-#: patterns/footer.php:104
-msgid "Copyright © %s. All Rights Reserved."
+#. translators: 1: Theme name, 2: Theme author.
+#: patterns/footer.php:110
+msgid "Powered by WordPress"
 msgstr ""
 
 #: patterns/header-with-button.php

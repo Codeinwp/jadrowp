@@ -8,7 +8,7 @@
     "php": ">=5.6"
   },
   "scripts": {
-    "pot": "./vendor/bin/wp i18n make-pot . languages/jadro.pot --exclude=deploy,vendor --headers='{\"POT-Creation-Date\":\"\"}'",
+    "pot": "./vendor/bin/wp i18n make-pot . languages/jadro.pot --exclude=deploy,vendor --headers='{\"POT-Creation-Date\":\"\"}' --slug=jadro",
     "pc:info": "@php ./vendor/bin/phpcs -i",
     "pc:config": "@php ./vendor/bin/phpcs --config-show",
     "lint": "@php ./vendor/bin/phpcs --report-full --report-summary .",
