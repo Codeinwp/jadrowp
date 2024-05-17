@@ -27,6 +27,6 @@ jobs:
           pnpm install
           composer install --prefer-dist --no-progress --no-suggest --ignore-platform-reqs
           pnpm run deploy
-          pnpm run release
+          npx release-it --no-git --ci --no-increment
         env:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}

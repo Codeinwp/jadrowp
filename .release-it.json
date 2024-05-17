@@ -18,12 +18,5 @@
 	},
 	"hooks": {
 		"after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
-	},
-	"plugins": {
-		"version": {
-			"src": "package.json",
-			"type": "json",
-			"path": "version"
-		}
 	}
 }

@@ -9,7 +9,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit( 'Direct script access denied.' );
 }
 
-define( 'JADRO_VERSION', '1.0.2' );
+define( 'JADRO_VERSION', '1.0.1' );
 define( 'JADRO_DIR', rtrim( get_template_directory(), '/' ) );
 /**
  * Theme setup.
